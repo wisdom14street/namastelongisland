@@ -7,6 +7,18 @@
   try{var c=new URLSearchParams(location.search).get('category');var s=document.getElementById('f-category');
     if(c&&s){var m={wedding:'Wedding: venue',venues:'Wedding: venue',catering:'Wedding: caterer',decor:'Wedding: decor',dj:'Wedding: DJ',photo:'Wedding: photo',mehndi:'Wedding: mehndi',makeup:'Wedding: hair',attire:'Wedding: attire',jewelry:'Wedding: jeweler',priests:'Wedding: pandit',cards:'Wedding: invitations',planners:'Wedding: planner',restaurant:'Restaurant',restaurants:'Restaurant',sweets:'Sweets',chaat:'Chaat',tiffin:'Tiffin',shop:'Clothing',puja:'Puja',community:'Temple'}[c];
       if(m)[].some.call(s.options,function(o){if(o.text.indexOf(m)===0){s.value=o.text;return true}})}}catch(_){}
+  // prefill listing from ?listing=
+  try{var li=new URLSearchParams(location.search).get('listing');if(li){var f=document.getElementById('f-listing')||document.getElementById('f-listing_url');if(f)f.value=location.origin+'/directory/#'+li;var b=document.getElementById('f-business');if(b&&!b.value)b.value=li.replace(/-/g,' ')}}catch(_){}
+  // directory search / filter
+  (function(){var q=document.getElementById('dq');if(!q)return;var t=document.getElementById('dt'),cards=[].slice.call(document.querySelectorAll('.lst')),secs=[].slice.call(document.querySelectorAll('.dsec')),chips=[].slice.call(document.querySelectorAll('.chip')),cnt=document.getElementById('dcount'),none=document.getElementById('dnone'),cat='',tm;
+    function run(){var v=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean),tv=t?t.value:'',n=0;
+      cards.forEach(function(c){var ok=(!cat||c.dataset.cat===cat)&&(!tv||c.dataset.town===tv)&&v.every(function(w){return c.dataset.q.indexOf(w)>-1});c.hidden=!ok;if(ok)n++});
+      secs.forEach(function(s){s.hidden=!s.querySelector('.lst:not([hidden])')});
+      if(cnt)cnt.textContent=(v.length||tv||cat)?n+' match'+(n===1?'':'es'):'';if(none)none.hidden=n>0;
+      clearTimeout(tm);if(v.length)tm=setTimeout(function(){ga('search',{search_term:q.value.slice(0,80)})},1200)}
+    q.addEventListener('input',run);if(t)t.addEventListener('change',run);
+    chips.forEach(function(ch){ch.addEventListener('click',function(){chips.forEach(function(x){x.classList.remove('on')});ch.classList.add('on');cat=ch.dataset.f;run()})});
+    var h=new URLSearchParams(location.search).get('q');if(h){q.value=h;run()}})();
   function collect(box){var d={};[].forEach.call(box.querySelectorAll('input,select,textarea'),function(el){
     if(!el.name)return;if(el.type==='checkbox'){d[el.name]=el.checked?'yes':'no';return}d[el.name]=(el.value||'').trim()});return d}
   function valid(box){var els=box.querySelectorAll('input,select,textarea');for(var i=0;i<els.length;i++){var el=els[i];

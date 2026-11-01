@@ -61,3 +61,21 @@ input:focus,select:focus,textarea:focus{outline:3px solid rgba(242,160,7,.45);bo
 .fcols{display:grid;gap:22px}@media(min-width:760px){.fcols{grid-template-columns:2fr 1fr 1fr}}
 .fbrand{display:flex;align-items:center;gap:8px;font-family:"Yeseva One",Georgia,serif;font-size:1.2rem}.fh{font-weight:800;color:#fff;margin:0 0 6px}
 .op{border-top:1px solid rgba(255,255,255,.15);margin-top:22px;padding-top:16px}.op a{display:inline}
+/* directory */
+.dsearch{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}.dsearch input{flex:1 1 240px}.dsearch select{flex:0 1 200px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:inherit;font-size:.88rem;font-weight:700;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;color:var(--ink)}
+.chip b{color:var(--rani)}.chip.on{background:var(--rani);border-color:var(--rani);color:#fff}.chip.on b{color:#FFE08A}
+.cnt{font-family:Mulish,system-ui,sans-serif;font-size:.8rem;font-weight:800;background:#FFE7B0;color:var(--ink);border-radius:999px;padding:2px 9px;vertical-align:middle}
+.lst{padding:16px}.lst h3{margin:0 0 4px;font-size:1.12rem}.lh{display:flex;gap:12px;align-items:flex-start}
+.ico{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;background:var(--rani)}.ico svg{width:24px;height:24px}
+.ico-eat{background:var(--saffron)}.ico-shop{background:#6A1B9A}.ico-community{background:var(--teal)}.ico-weddings{background:var(--rani)}
+.lst .tag{text-decoration:none}.desc{color:var(--muted);font-size:.95rem}.lst .links a{font-weight:700}
+.lfoot{font-size:.8rem;margin-top:8px!important;padding-top:8px;border-top:1px dashed var(--line)}.lfoot a{color:var(--muted)}
+.warn{font-size:.85rem;color:#8a4b00;background:#FFF1D6;border-radius:8px;padding:4px 8px}
+.plist{list-style:none;padding:0;margin:8px 0 14px}.plist li{padding:4px 0;border-bottom:1px solid #f6ead9}
+.towns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.townchip{background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 14px;text-decoration:none;font-weight:700;color:var(--ink)}
+.townchip b{color:var(--rani)}.none{font-weight:700}.srcnote{margin-top:22px}.dsec h2 .small{font-family:Mulish,sans-serif;font-size:.85rem;margin-left:6px}
+.cat .lh h2{margin-top:6px}
+.hsearch{display:flex;gap:8px;margin:20px 0 4px;max-width:560px}.hsearch input{flex:1;border-radius:999px;padding:13px 18px}
+.tiles a:first-child{grid-column:1/-1;min-height:90px}

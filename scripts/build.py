@@ -19,7 +19,7 @@ GA_HEAD = (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_
            f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());'
            f'gtag("config","{GA_ID}",' + json.dumps({'site_brand': BRAND}) + ');</script>')
 
-NAV = [('/weddings/', 'Weddings'), ('/events/', 'Events'), ('/festivals/', 'Festivals'), ('/eat/', 'Eat'),
+NAV = [('/directory/', 'Directory'), ('/weddings/', 'Weddings'), ('/events/', 'Events'), ('/festivals/', 'Festivals'), ('/eat/', 'Eat'),
        ('/shop/', 'Shop'), ('/temples-community/', 'Temples & community')]
 
 DIYA = ('<svg class="diya" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6c5 8 8 13 8 18a8 8 0 0 1-16 0c0-5 3-10 8-18z" fill="#F2A007"/>'
@@ -102,7 +102,28 @@ EVENTS = [
          where='Crest Hollow Country Club, 8325 Jericho Turnpike, Woodbury',
          what='The organizer\'s annual Diwali gala. Tickets are listed at $150 on the organizer\'s page.',
          src='https://www.ranausa.org/event/', srcname='ranausa.org'),
+    dict(date='2026-11-09b', when='Mondays, Nov 9, 16, 23 and 30, 2026 · 7:00–8:00 pm', name='Bollywood Dance Class (4 weeks)',
+         where='Hicksville Public Library, Hicksville',
+         what='A beginner Bollywood dance series for adults (18+). Registration is required and covers all four classes.',
+         src='https://hicksvillelibrary.libcal.com/event/17149045', srcname='hicksvillelibrary.libcal.com'),
+    dict(date='2026-11-21', when='Sat, Nov 21, 2026 · 8:00 pm', name='Udit Narayan & Aditya Narayan in concert',
+         where='Tilles Center for the Performing Arts, 720 Northern Blvd, Brookville',
+         what='The playback singers perform in the Concert Hall. Tickets through Tilles Center.',
+         src='https://www.tillescenter.org/event/udit-narayan-aditya-narayan', srcname='tillescenter.org'),
+    dict(date='2026-11-22', when='Sun, Nov 22, 2026 · 7:45 am–3:00 pm', name='AAPIQLI Annual CME and Research Competition',
+         where='DeMatteis Center, 101 Northern Blvd, Greenvale',
+         what='Continuing medical education and a research competition from the American Association of Physicians of Indian Origin, Queens and Long Island chapter.',
+         src='https://aapiqli.org/events/', srcname='aapiqli.org'),
+    dict(date='2026-12-12', when='Sat, Dec 12, 2026 · 5:00–7:00 pm', name="Pramukh Swami Maharaj's Janma Jayanti",
+         where='BAPS Shri Swaminarayan Mandir, 2 Deshon Drive, Melville',
+         what='A celebration of the birth anniversary of Pramukh Swami Maharaj.',
+         src='https://www.baps.org/Global-Network/North-America/LongIsland/Upcoming-Events.aspx', srcname='baps.org'),
+    dict(date='2026-12-19', when='Sat, Dec 19, 2026 · 5:00–7:00 pm', name="Pramukh Swami Maharaj's Birthday: Mahila Celebration",
+         where='BAPS Shri Swaminarayan Mandir, 2 Deshon Drive, Melville',
+         what='A celebration organized by women, for women.',
+         src='https://www.baps.org/Global-Network/North-America/LongIsland/Upcoming-Events.aspx', srcname='baps.org'),
 ]
+EVENTS.sort(key=lambda e: e['date'])
 
 PLACES = [
     dict(kind='Mandir', name='BAPS Shri Swaminarayan Mandir, Long Island', addr='2 Deshon Drive, Melville, NY 11747', tel='(631) 996-9237',
@@ -148,11 +169,13 @@ home_body = f'''<section class="hero"><div class="wrap">
 <p class="kicker">Hicksville · New Hyde Park · Jericho · Melville · and all of Long Island</p>
 <h1>Your guide to South Asian life on Long Island</h1>
 <p class="lede">Weddings, festivals, food, worship and the neighbors who make it all happen. Free to use, free to be listed, and checked by a real person.</p>
-<div class="btns"><a class="btn" href="/get-listed/">Get your business listed free</a><a class="btn alt" href="/submit-event/">Submit an event</a></div>
+<form class="hsearch" action="/directory/" method="get" role="search"><label class="sr" for="hq">Search the directory</label><input id="hq" name="q" type="search" placeholder="Try dosa, mithai, lehenga, gurdwara..."><button class="btn" type="submit">Search</button></form>
+<div class="btns"><a class="btn alt" href="/directory/">Browse the directory</a><a class="btn alt" href="/get-listed/">Get listed free</a></div>
 </div></section>
-<section class="wrap launch"><div class="note"><b>We're just launching.</b> Every listing here is checked with the business or on its own website before it goes up, so the directory starts small on purpose. Wedding vendors, restaurants, shops, temples and associations: be one of the first listed.</div></section>
+<section class="wrap launch"><div class="note"><b>Just launched.</b> Every listing is checked against the business's own Google Maps listing or website, with no copied reviews or photos. Missing someone, or own a listed business? <a href="/get-listed/">Add a listing</a> or <a href="/claim/">claim yours</a>.</div></section>
 {f'<section class="wrap"><div class="sechead"><h2>Coming up</h2><a href="/events/">All events</a></div><div class="grid">{ev_html}</div></section>' if ev else ''}
 <section class="wrap"><h2>Explore</h2><div class="tiles">
+<a class="tile t3" href="/directory/"><b>Full directory</b><span>Search every listing</span></a>
 <a class="tile t1" href="/weddings/"><b>Wedding vendors</b><span>Mandap to mehndi, by category</span></a>
 <a class="tile t2" href="/festivals/"><b>Festival guide</b><span>Diwali, Navratri, Holi, Eid, Vaisakhi and more</span></a>
 <a class="tile t3" href="/events/"><b>Events</b><span>Garba nights, pujas, galas, melas</span></a>
@@ -371,6 +394,8 @@ pages['/privacy/'] = ('Privacy | Namaste Long Island', 'How Namaste Long Island 
 NF = '''<section class="phead"><div class="wrap"><h1>This page wandered off</h1><p class="lede">It may have moved. Try the guide below.</p>
 <div class="btns"><a class="btn" href="/">Home</a><a class="btn alt" href="/events/">Events</a><a class="btn alt" href="/weddings/">Wedding vendors</a></div></div></section>'''
 
+exec(open(os.path.join(ROOT, 'scripts', 'directory.py')).read())
+
 # ---------- write ----------
 if os.path.isdir(DIST):
     for n in os.listdir(DIST):
@@ -378,10 +403,11 @@ if os.path.isdir(DIST):
         if n in ('og.jpg',): continue
         shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
 os.makedirs(DIST, exist_ok=True)
-for path, (t, d, b) in pages.items():
+for path, v in pages.items():
+    t, d, b = v[:3]; xh = v[3] if len(v) > 3 else ''
     out = os.path.join(DIST, path.strip('/'), 'index.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    open(out, 'w').write(page(path, t, d, b))
+    open(out, 'w').write(page(path, t, d, b, xh))
 open(os.path.join(DIST, '404.html'), 'w').write(page('/404', 'Page not found | Namaste Long Island', 'Page not found.', NF, '<meta name="robots" content="noindex">').replace(f'<link rel="canonical" href="{BASE}/404">', ''))
 os.makedirs(os.path.join(DIST, 'assets'), exist_ok=True)
 for f in ('site.css', 'site.js'):
@@ -396,5 +422,5 @@ open(os.path.join(DIST, 'llms.txt'), 'w').write(f'''# {BRAND}
 > A community guide to South Asian life on Long Island, New York: wedding vendors, events, a festival guide, restaurants, shops, temples, gurdwaras and community groups. Run by {OPERATOR}. Listings are free and verified with the business or on its own website.
 
 ## Pages
-''' + ''.join(f'- [{t.split(" | ")[0]}]({BASE}{p}): {d}\n' for p, (t, d, b) in pages.items()) + f'\nContact: {EMAIL}\n')
+''' + ''.join(f'- [{v[0].split(" | ")[0]}]({BASE}{p}): {v[1]}\n' for p, v in pages.items()) + f'\nContact: {EMAIL}\n')
 print('built', len(pages), 'pages')
