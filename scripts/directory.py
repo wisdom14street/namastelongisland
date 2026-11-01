@@ -1,5 +1,5 @@
 # Executed inside build.py (shares its globals: page, E, BASE, EMAIL, news_box, pages, CHECKED, ROOT, json, re-use helpers)
-import re as _re
+import re as _re, urllib.parse as _up
 DATA = json.load(open(os.path.join(ROOT, 'data', 'listings.json')))
 CATS_META = [
     # key, plural title, section, schema type, icon
@@ -58,7 +58,9 @@ for L in DATA:
     L['phone_fmt'] = fmt_phone(L.get('phone'))
 by_cat = {}
 for L in DATA: by_cat.setdefault(L['cat'], []).append(L)
-for v in by_cat.values(): v.sort(key=lambda x: (x['town'], x['name'].lower()))
+_tc = {}
+for L in DATA: _tc[L['town']] = _tc.get(L['town'], 0) + 1
+for v in by_cat.values(): v.sort(key=lambda x: (not x['town'], -_tc.get(x['town'], 0), x['town'], x['name'].lower()))
 by_town = {}
 for L in DATA:
     if L.get('zip'): by_town.setdefault(L['town'], []).append(L)
@@ -68,18 +70,20 @@ def cat_url(c): return f'/directory/{c}/' if c in CAT_PAGE else f'/directory/#ca
 def town_url(t): return f'/towns/{slugify(t)}/' if t in TOWN_PAGE else ''
 def L_card(L, show_cat=True, anchor=True):
     tel = _re.sub(r'\D', '', L.get('phone') or '')
-    links = []
-    if L['phone_fmt']: links.append(f'<a href="tel:+1{tel[-10:]}">{L["phone_fmt"]}</a>')
-    if L.get('website'): links.append(f'<a href="{E(L["website"])}" rel="noopener nofollow" target="_blank">Website</a>')
-    if L.get('address'): links.append(f'<a href="https://www.google.com/maps/search/?api=1&query={E(L["name"] + ", " + L["address"])}" rel="noopener" target="_blank">Directions</a>')
+    acts = []
+    if L['phone_fmt']: acts.append(f'<a class="act" href="tel:+1{tel[-10:]}" data-ev="call"><span aria-hidden="true">&#9742;</span> {L["phone_fmt"]}</a>')
+    if L.get('website'): acts.append(f'<a class="act" href="{E(L["website"])}" rel="noopener nofollow" target="_blank" data-ev="website">Website</a>')
+    if L.get('address'): acts.append(f'<a class="act" href="https://www.google.com/maps/search/?api=1&amp;query={E(_up.quote_plus(L["name"] + ", " + L["address"]))}" rel="noopener" target="_blank" data-ev="directions">Directions</a>')
     tl = town_url(L['town'])
-    town = f'<a href="{tl}">{E(L["town"])}</a>' if tl else E(L['town'])
+    town = (f'<a class="town" href="{tl}">{E(L["town"])}</a>' if tl else f'<span class="town">{E(L["town"])}</span>') if L.get('town') else '<span class="town">Serves Long Island</span>'
     cat = f'<a class="tag" href="{cat_url(L["cat"])}">{E(L["type"])}</a>' if show_cat else f'<span class="tag">{E(L["type"])}</span>'
     tmp = '<p class="warn">Listed as temporarily closed. Check before visiting.</p>' if L.get('temp_closed') else ''
-    return (f'<article class="card lst" id="{L["slug"]}" data-cat="{L["cat"]}" data-town="{E(L["town"])}" data-q="{E((L["name"] + " " + L["type"] + " " + L["town"] + " " + L["address"]).lower())}">'
-            f'<div class="lh">{icon(L["cat"])}<div><h3>{E(L["name"])}</h3>{cat}</div></div>'
-            f'<p class="desc">{E(L["desc"])}</p><p class="addr">{(E(L["address"]) + " · " + town) if L.get("address") else "Serves Long Island"}</p><p class="links">{" · ".join(links)}</p>{tmp}'
-            f'<p class="lfoot"><a href="/claim/?listing={L["slug"]}">Claim this listing</a> · <a href="/report-update/?listing={L["slug"]}">Report an update</a></p></article>')
+    desc = '' if L.get('auto') else f'<p class="desc">{E(L["desc"])}</p>'
+    addr = f'<p class="addr">{E(L["address"].replace(", USA", ""))}</p>' if L.get('address') else ''
+    return (f'<article class="card lst" id="{L["slug"]}" data-cat="{L["cat"]}" data-town="{E(L["town"])}" data-q="{E((L["name"] + " " + L.get("full_name", "") + " " + L["type"] + " " + CM[L["cat"]][1] + " " + L["town"] + " " + L["address"] + " " + L.get("cuisine", "")).lower())}">'
+            f'<div class="lh">{icon(L["cat"])}<div class="lt"><h3>{E(L["name"])}</h3><p class="meta">{cat}{town}</p></div></div>'
+            f'{desc}{addr}{tmp}<div class="acts">{"".join(acts)}</div>'
+            f'<p class="lfoot"><a href="/claim/?listing={L["slug"]}">Claim</a><a href="/report-update/?listing={L["slug"]}">Report an update</a></p></article>')
 def L_schema(L):
     d = {"@type": CM[L['cat']][3], "name": L['name']}
     if L.get('address'): d['address'] = {"@type": "PostalAddress", "streetAddress": L['address'].split(',')[0], "addressLocality": L['town'], "addressRegion": "NY", "postalCode": L['zip'], "addressCountry": "US"}
@@ -95,7 +99,7 @@ OSM_NOTE = ''
 FOOTNOTE = (f'<p class="small srcnote">Every listing was checked on {CHECKED} against the business\'s Google Maps listing and, where it has one, its own website. '
             'We don\'t copy reviews, ratings, descriptions or photos. Details change: please confirm before you go, and owners can '
             '<a href="/claim/">claim a listing</a> or <a href="/report-update/">report an update</a>. '
-            'Some leads came from <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> (© OpenStreetMap contributors, ODbL).</p>')
+            '</p>')
 SEARCH = ('<div class="dsearch"><label class="sr" for="dq">Search the directory</label><input id="dq" type="search" placeholder="Search by name, food, town..." autocomplete="off">'
           '<select id="dt" aria-label="Filter by town"><option value="">All towns</option>{towns}</select><p class="small" id="dcount" role="status"></p></div>')
 def town_opts(items):

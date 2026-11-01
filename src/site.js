@@ -18,7 +18,10 @@
       clearTimeout(tm);if(v.length)tm=setTimeout(function(){ga('search',{search_term:q.value.slice(0,80)})},1200)}
     q.addEventListener('input',run);if(t)t.addEventListener('change',run);
     chips.forEach(function(ch){ch.addEventListener('click',function(){chips.forEach(function(x){x.classList.remove('on')});ch.classList.add('on');cat=ch.dataset.f;run()})});
-    var h=new URLSearchParams(location.search).get('q');if(h){q.value=h;run()}})();
+    var sp=new URLSearchParams(location.search),h=sp.get('q'),tw=sp.get('town'),cf=sp.get('cat');if(h)q.value=h;if(tw&&t)t.value=tw;
+    if(cf)chips.forEach(function(ch){if(ch.dataset.f===cf){chips.forEach(function(x){x.classList.remove('on')});ch.classList.add('on');cat=cf}});if(h||tw||cf)run()})();
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[data-ev]');if(!a)return;var c=a.closest('.lst');
+    try{ga('listing_'+a.dataset.ev,{listing:c?c.id:'',category:c?c.dataset.cat:''})}catch(_){}});
   function collect(box){var d={};[].forEach.call(box.querySelectorAll('input,select,textarea'),function(el){
     if(!el.name)return;if(el.type==='checkbox'){d[el.name]=el.checked?'yes':'no';return}d[el.name]=(el.value||'').trim()});return d}
   function valid(box){var els=box.querySelectorAll('input,select,textarea');for(var i=0;i<els.length;i++){var el=els[i];

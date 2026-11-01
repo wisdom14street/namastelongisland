@@ -20,6 +20,7 @@
   ],
   "full_name": "DOSA JUNCTION",
   "desc": "A caterer on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "dosa-junction-hicksville"
  },
  {
@@ -43,7 +44,32 @@
   ],
   "full_name": "Bombay Designs",
   "desc": "A clothing store on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "bombay-designs-hicksville"
+ },
+ {
+  "name": "Golden Zari by Zainab",
+  "cat": "clothing",
+  "type": "Boutique",
+  "address": "459 S Broadway, Hicksville, NY 11801",
+  "town": "Hicksville",
+  "zip": "11801",
+  "county": "Nassau",
+  "phone": "+16469193015",
+  "website": "https://www.instagram.com/goldenzaribyzainab/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Pakistani+Wedding+Dresses+%7C+Golden+Zari+By+Zainab/data=!4m7!3m6!1s0x89c2810eace75d53:0x8f88d169c9799060!8m2!3d40.7579776!4d-73.5116024!16s%2Fg%2F11h11qxr4t!19sChIJU13nrA6BwokRYJB5yWnRiI8?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Pakistani Wedding Dresses | Golden Zari By Zainab",
+  "desc": "A boutique on South Broadway in Hicksville.",
+  "auto": true,
+  "slug": "golden-zari-by-zainab-hicksville"
  },
  {
   "name": "Hema Designs",
@@ -66,6 +92,7 @@
   ],
   "full_name": "Hema Designs",
   "desc": "A women's clothing store on Bethpage Road in Hicksville.",
+  "auto": true,
   "slug": "hema-designs-hicksville"
  },
  {
@@ -89,6 +116,7 @@
   ],
   "full_name": "Mannat Designs",
   "desc": "A boutique on West Old Country Road in Hicksville.",
+  "auto": true,
   "slug": "mannat-designs-hicksville"
  },
  {
@@ -112,6 +140,7 @@
   ],
   "full_name": "Milnah Wholesale - Ladies Suits, Lehengas & Men Kurta",
   "desc": "A clothing store on Herzog Place in Hicksville.",
+  "auto": true,
   "slug": "milnah-wholesale-hicksville"
  },
  {
@@ -140,33 +169,11 @@
   ],
   "full_name": "Moughal Boutique",
   "desc": "A clothing store on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "moughal-boutique-hicksville"
  },
  {
-  "name": "Pakistani Wedding Dresses",
-  "cat": "clothing",
-  "type": "Boutique",
-  "address": "459 S Broadway, Hicksville, NY 11801",
-  "town": "Hicksville",
-  "zip": "11801",
-  "county": "Nassau",
-  "phone": "+16469193015",
-  "website": "https://www.instagram.com/goldenzaribyzainab/",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Pakistani+Wedding+Dresses+%7C+Golden+Zari+By+Zainab/data=!4m7!3m6!1s0x89c2810eace75d53:0x8f88d169c9799060!8m2!3d40.7579776!4d-73.5116024!16s%2Fg%2F11h11qxr4t!19sChIJU13nrA6BwokRYJB5yWnRiI8?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Pakistani Wedding Dresses | Golden Zari By Zainab",
-  "desc": "A boutique on South Broadway in Hicksville.",
-  "slug": "pakistani-wedding-dresses-hicksville"
- },
- {
-  "name": "Saj Creations boutique",
+  "name": "Saj Creations Boutique",
   "cat": "clothing",
   "type": "Boutique",
   "address": "19 S Broadway, Hicksville, NY 11801",
@@ -186,6 +193,7 @@
   ],
   "full_name": "Saj Creations boutique (Indian Fashion Boutique)",
   "desc": "A boutique on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "saj-creations-boutique-hicksville"
  },
  {
@@ -214,6 +222,7 @@
   ],
   "full_name": "Samaira",
   "desc": "A bridal shop on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "samaira-hicksville"
  },
  {
@@ -242,6 +251,7 @@
   ],
   "full_name": "Saree Pasal",
   "desc": "A clothing store on Alpine Lane in Hicksville.",
+  "auto": true,
   "slug": "saree-pasal-hicksville"
  },
  {
@@ -265,6 +275,7 @@
   ],
   "full_name": "Desi Fusion Boutique",
   "desc": "A clothing store on East Jericho Turnpike in Huntington.",
+  "auto": true,
   "slug": "desi-fusion-boutique-huntington"
  },
  {
@@ -288,6 +299,7 @@
   ],
   "full_name": "Colors of east imports from india",
   "desc": "A clothing store on Main Street in Northport.",
+  "auto": true,
   "slug": "colors-of-east-imports-from-india-northport"
  },
  {
@@ -316,6 +328,7 @@
   ],
   "full_name": "Riwaj Collections",
   "desc": "A clothing store on North Central Avenue in Valley Stream.",
+  "auto": true,
   "slug": "riwaj-collections-valley-stream"
  },
  {
@@ -449,6 +462,7 @@
   ],
   "full_name": "India Association of Long Island",
   "desc": "A community organization on East Old Country Road in Hicksville.",
+  "auto": true,
   "slug": "india-association-of-long-island-hicksville"
  },
  {
@@ -477,6 +491,7 @@
   ],
   "full_name": "SAHAS",
   "desc": "A community organization on East Barclay Street in Hicksville.",
+  "auto": true,
   "slug": "sahas-hicksville"
  },
  {
@@ -500,6 +515,7 @@
   ],
   "full_name": "Telugu literary and cultural association",
   "desc": "A community organization on North Village Green in Levittown.",
+  "auto": true,
   "slug": "telugu-literary-and-cultural-association-levittown"
  },
  {
@@ -528,6 +544,7 @@
   ],
   "full_name": "Nritya Nupur Dance Academy",
   "desc": "A dance school on Ashford Place in Albertson.",
+  "auto": true,
   "slug": "nritya-nupur-dance-academy-albertson"
  },
  {
@@ -551,10 +568,11 @@
   ],
   "full_name": "Nartan Rang Dance Academy - Indian Dance Classes, Folk, Semi-Classical, and Bollywood Dance.",
   "desc": "A dance school on West Old Country Road in Hicksville.",
+  "auto": true,
   "slug": "nartan-rang-dance-academy-hicksville"
  },
  {
-  "name": "RAGA ACADEMY (School Of Indian Music)",
+  "name": "Raga Academy",
   "cat": "dance-music",
   "type": "Music school",
   "address": "55 N Broadway Ste 102, Hicksville, NY 11801",
@@ -579,7 +597,8 @@
   ],
   "full_name": "RAGA ACADEMY (School Of Indian Music)",
   "desc": "A music school on North Broadway in Hicksville.",
-  "slug": "raga-academy-school-of-indian-music-hicksville"
+  "auto": true,
+  "slug": "raga-academy-hicksville"
  },
  {
   "name": "Raga Dance Academy",
@@ -607,6 +626,7 @@
   ],
   "full_name": "Raga Dance Academy",
   "desc": "A dance school on North Broadway in Hicksville.",
+  "auto": true,
   "slug": "raga-dance-academy-hicksville"
  },
  {
@@ -635,6 +655,7 @@
   ],
   "full_name": "Vivarta Arts",
   "desc": "A dance school on entrance in back - behind Target near Avis Rental Car in Hicksville.",
+  "auto": true,
   "slug": "vivarta-arts-hicksville"
  },
  {
@@ -658,6 +679,7 @@
   ],
   "full_name": "Elegantize Productions - Wedding Design & Decor",
   "desc": "A wedding decor on Millers Lane in New Hyde Park.",
+  "auto": true,
   "slug": "elegantize-productions-new-hyde-park"
  },
  {
@@ -686,6 +708,7 @@
   ],
   "full_name": "DJLucky",
   "desc": "A dJ service on Wheeler Road in Central Islip. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
   "slug": "djlucky-central-islip"
  },
  {
@@ -709,6 +732,7 @@
   ],
   "full_name": "DNA Events - Indian Wedding DJ",
   "desc": "A dJ service on Michael Avenue in Farmingdale. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
   "slug": "dna-events-farmingdale"
  },
  {
@@ -732,6 +756,7 @@
   ],
   "full_name": "Caribbean dj, West Indian dj, Caribbean dj, Wedding dj",
   "desc": "A dJ service on Keats Place in Hicksville. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
   "slug": "caribbean-dj-west-indian-dj-caribbean-dj-wedding-dj-hicksville"
  },
  {
@@ -760,6 +785,7 @@
   ],
   "full_name": "Superior Vibes Entertainment, Guyanese DJ, Caribbean DJ, West Indian DJ, Open Format DJ",
   "desc": "A dJ service in Lindenhurst. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
   "slug": "superior-vibes-entertainment-guyanese-dj-caribbean-dj-west-indian-dj-open-format-dj-lindenhurst"
  },
  {
@@ -788,6 +814,7 @@
   ],
   "full_name": "Musica Entertainment DJ Services",
   "desc": "A dJ service on Post Avenue in Westbury. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
   "slug": "musica-entertainment-dj-services-westbury"
  },
  {
@@ -811,6 +838,7 @@
   ],
   "full_name": "Geo Halal Meat & Grocery",
   "desc": "A grocery store on Brentwood Road in Bay Shore.",
+  "auto": true,
   "slug": "geo-halal-meat-grocery-bay-shore"
  },
  {
@@ -834,6 +862,7 @@
   ],
   "full_name": "DESHI HALAL SUPER MARKET",
   "desc": "A supermarket on North Wantagh Avenue in Bethpage.",
+  "auto": true,
   "slug": "deshi-halal-super-market-bethpage"
  },
  {
@@ -857,6 +886,7 @@
   ],
   "full_name": "One Stop Bazaar - Halal",
   "desc": "A grocery store on Middle Country Road in Centereach, inside Centereach Square.",
+  "auto": true,
   "slug": "one-stop-bazaar-centereach"
  },
  {
@@ -885,6 +915,7 @@
   ],
   "full_name": "Apna Bazar Farmers Market",
   "desc": "An Indian grocery store on Jericho Turnpike in Commack.",
+  "auto": true,
   "slug": "apna-bazar-farmers-market-commack"
  },
  {
@@ -908,6 +939,7 @@
   ],
   "full_name": "Asian Bazar - Desi Store",
   "desc": "An Asian grocery store on Deer Park Avenue in Deer Park.",
+  "auto": true,
   "slug": "asian-bazar-deer-park"
  },
  {
@@ -931,6 +963,7 @@
   ],
   "full_name": "Deer Park Grocery & Halal Meat",
   "desc": "An Asian grocery store on Deer Park Avenue in Deer Park.",
+  "auto": true,
   "slug": "deer-park-grocery-halal-meat-deer-park"
  },
  {
@@ -954,6 +987,7 @@
   ],
   "full_name": "Indian Spice Trading",
   "desc": "A spice wholesaler on South 2nd Street in Deer Park.",
+  "auto": true,
   "slug": "indian-spice-trading-deer-park"
  },
  {
@@ -977,6 +1011,7 @@
   ],
   "full_name": "DATAR HALAL MEAT AND GROCERY",
   "desc": "A grocery store on East Meadow Avenue in East Meadow.",
+  "auto": true,
   "slug": "datar-halal-meat-and-grocery-east-meadow"
  },
  {
@@ -1000,6 +1035,7 @@
   ],
   "full_name": "Spice & Curry Meat Shop",
   "desc": "A butcher shop on Hempstead Turnpike in East Meadow.",
+  "auto": true,
   "slug": "spice-curry-meat-shop-east-meadow"
  },
  {
@@ -1023,6 +1059,7 @@
   ],
   "full_name": "ALMEZAAN HALAL MEAT AND GROCERY",
   "desc": "An Asian grocery store on Hempstead Turnpike in Elmont, inside Missywax & Wash.",
+  "auto": true,
   "slug": "almezaan-halal-meat-and-grocery-elmont"
  },
  {
@@ -1046,6 +1083,7 @@
   ],
   "full_name": "Sanjha Punjab Supermarket",
   "desc": "A grocery store on Dutch Broadway in Elmont.",
+  "auto": true,
   "slug": "sanjha-punjab-supermarket-elmont"
  },
  {
@@ -1069,6 +1107,7 @@
   ],
   "full_name": "Suhana's Halal Meat and Grocery",
   "desc": "An Asian grocery store on Meacham Avenue in Elmont.",
+  "auto": true,
   "slug": "suhana-s-halal-meat-and-grocery-elmont"
  },
  {
@@ -1092,6 +1131,7 @@
   ],
   "full_name": "Farmingdale Grocery & Halal Meat",
   "desc": "A grocery store on Fulton Street in Farmingdale.",
+  "auto": true,
   "slug": "farmingdale-grocery-halal-meat-farmingdale"
  },
  {
@@ -1120,6 +1160,7 @@
   ],
   "full_name": "A1 Spice World",
   "desc": "A spice wholesaler on Glen Head Road in Glen Head.",
+  "auto": true,
   "slug": "a1-spice-world-glen-head"
  },
  {
@@ -1143,6 +1184,7 @@
   ],
   "full_name": "Aladin Halal Meat",
   "desc": "A meat processor on South Broadway in Hicksville, inside Hicksville Terrace Shopping Ct.",
+  "auto": true,
   "slug": "aladin-halal-meat-hicksville"
  },
  {
@@ -1166,6 +1208,7 @@
   ],
   "full_name": "Apna Bazar",
   "desc": "A grocery store on Bethpage Road in Hicksville, inside Kundan Mall, Kundan Galleria.",
+  "auto": true,
   "slug": "apna-bazar-hicksville"
  },
  {
@@ -1189,6 +1232,7 @@
   ],
   "full_name": "Badshah Farmers Market",
   "desc": "An Indian grocery store on South Broadway in Hicksville, inside Broadway Plaza.",
+  "auto": true,
   "slug": "badshah-farmers-market-hicksville"
  },
  {
@@ -1212,6 +1256,7 @@
   ],
   "full_name": "Himalayan Spice and Meat Shop",
   "desc": "A grocery store on West Village Green in Hicksville.",
+  "auto": true,
   "slug": "himalayan-spice-and-meat-shop-hicksville"
  },
  {
@@ -1235,6 +1280,7 @@
   ],
   "full_name": "Kashmiri Bazaar",
   "desc": "A grocery store on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "kashmiri-bazaar-hicksville"
  },
  {
@@ -1258,6 +1304,7 @@
   ],
   "full_name": "Madina Halal Meat & Fish",
   "desc": "A grocery store on Broadway in Hicksville.",
+  "auto": true,
   "slug": "madina-halal-meat-fish-hicksville"
  },
  {
@@ -1286,6 +1333,7 @@
   ],
   "full_name": "Maharaja Farmers Market",
   "desc": "An Indian grocery store on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "maharaja-farmers-market-hicksville"
  },
  {
@@ -1314,6 +1362,7 @@
   ],
   "full_name": "Patel Brothers",
   "desc": "A grocery store on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "patel-brothers-hicksville"
  },
  {
@@ -1337,6 +1386,7 @@
   ],
   "full_name": "Super Halal",
   "desc": "A butcher shop on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "super-halal-hicksville"
  },
  {
@@ -1360,6 +1410,7 @@
   ],
   "full_name": "Villager Farmers Market",
   "desc": "An Indian grocery store on North Broadway in Hicksville, inside Hicksville Plaza.",
+  "auto": true,
   "slug": "villager-farmers-market-hicksville"
  },
  {
@@ -1383,6 +1434,7 @@
   ],
   "full_name": "Anarkali Bazaar",
   "desc": "An Asian grocery store on East Jericho Turnpike in Huntington Station.",
+  "auto": true,
   "slug": "anarkali-bazaar-huntington-station"
  },
  {
@@ -1406,6 +1458,7 @@
   ],
   "full_name": "Maharaja Super Market",
   "desc": "An Indian grocery store on Hillside Avenue in New Hyde Park.",
+  "auto": true,
   "slug": "maharaja-super-market-new-hyde-park"
  },
  {
@@ -1429,10 +1482,11 @@
   ],
   "full_name": "Finest Halal Meat & Deli",
   "desc": "A grocery store on Deer Park Avenue in North Babylon, inside La Grande Place.",
+  "auto": true,
   "slug": "finest-halal-meat-deli-north-babylon"
  },
  {
-  "name": "Rajdeep Enterprises Llc",
+  "name": "Rajdeep Enterprises",
   "cat": "grocery",
   "type": "Indian grocery store",
   "address": "38 Werman Ct, Plainview, NY 11803",
@@ -1452,7 +1506,8 @@
   ],
   "full_name": "RAJDEEP ENTERPRISES LLC",
   "desc": "An Indian grocery store on Werman Court in Plainview.",
-  "slug": "rajdeep-enterprises-llc-plainview"
+  "auto": true,
+  "slug": "rajdeep-enterprises-plainview"
  },
  {
   "name": "House of spice",
@@ -1475,6 +1530,7 @@
   ],
   "full_name": "House of spice",
   "desc": "A supermarket on Middle Country Road in Selden.",
+  "auto": true,
   "slug": "house-of-spice-selden"
  },
  {
@@ -1498,6 +1554,7 @@
   ],
   "full_name": "Raja Bazar Halal meat & grocery",
   "desc": "A grocery store on Surrey Cir in Shirley, inside Shirley Plaza Shopping Center.",
+  "auto": true,
   "slug": "raja-bazar-halal-meat-grocery-shirley"
  },
  {
@@ -1521,6 +1578,7 @@
   ],
   "full_name": "Alladin Halal Meat & Grocery",
   "desc": "A butcher shop on North Central Avenue in Valley Stream.",
+  "auto": true,
   "slug": "alladin-halal-meat-grocery-valley-stream"
  },
  {
@@ -1549,10 +1607,11 @@
   ],
   "full_name": "Apna Bazar Valley Stream",
   "desc": "An Asian grocery store on North Central Avenue in Valley Stream.",
+  "auto": true,
   "slug": "apna-bazar-valley-stream-valley-stream"
  },
  {
-  "name": "Pak Valley Halal Meats Inc",
+  "name": "Pak Valley Halal Meats",
   "cat": "grocery",
   "type": "Butcher shop",
   "address": "369 N Central Ave, Valley Stream, NY 11580",
@@ -1572,7 +1631,8 @@
   ],
   "full_name": "Pak Valley Halal Meats Inc",
   "desc": "A butcher shop on North Central Avenue in Valley Stream.",
-  "slug": "pak-valley-halal-meats-inc-valley-stream"
+  "auto": true,
+  "slug": "pak-valley-halal-meats-valley-stream"
  },
  {
   "name": "Qasim Zabiha Halal Meat",
@@ -1595,6 +1655,7 @@
   ],
   "full_name": "Qasim Zabiha Halal Meat",
   "desc": "A meat products store on Central Court in Valley Stream.",
+  "auto": true,
   "slug": "qasim-zabiha-halal-meat-valley-stream"
  },
  {
@@ -1618,6 +1679,7 @@
   ],
   "full_name": "Long Island Halal Meat",
   "desc": "A butcher shop on Little East Neck Road in West Babylon.",
+  "auto": true,
   "slug": "long-island-halal-meat-west-babylon"
  },
  {
@@ -1641,6 +1703,7 @@
   ],
   "full_name": "Namdhari Gurdwara",
   "desc": "A gurdwara on Kiefer Avenue in Elmont. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "namdhari-gurdwara-elmont"
  },
  {
@@ -1664,6 +1727,7 @@
   ],
   "full_name": "Mata Sahib Kaur Gurdwara",
   "desc": "A gurdwara on Lattingtown Road in Glen Cove. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "mata-sahib-kaur-gurdwara-glen-cove"
  },
  {
@@ -1687,6 +1751,7 @@
   ],
   "full_name": "Guru Nanak Darbar Of Long Island (Sikh Gurudwara)",
   "desc": "A gurdwara on North Broadway in Hicksville. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "guru-nanak-darbar-of-long-island-hicksville"
  },
  {
@@ -1710,6 +1775,7 @@
   ],
   "full_name": "Gurudwara Shaheedan (Sikh Gurudwara)",
   "desc": "A gurdwara on West Nicholai Street in Hicksville. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "gurudwara-shaheedan-hicksville"
  },
  {
@@ -1733,10 +1799,11 @@
   ],
   "full_name": "Darbar Sri Guru Granth Sahib Ji New York",
   "desc": "A gurdwara on Jericho Turnpike in New Hyde Park. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "darbar-sri-guru-granth-sahib-ji-new-york-new-hyde-park"
  },
  {
-  "name": "Gurdwara Guru Tegh Bahadur Sahib Inc",
+  "name": "Gurdwara Guru Tegh Bahadur Sahib",
   "cat": "gurdwaras",
   "type": "Gurdwara",
   "address": "2000 Hillside Ave., North New Hyde Park, NY 11040",
@@ -1756,7 +1823,8 @@
   ],
   "full_name": "Gurdwara Guru Tegh Bahadur Sahib Inc",
   "desc": "A gurdwara on Hillside Avenue in North New Hyde Park. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
-  "slug": "gurdwara-guru-tegh-bahadur-sahib-inc-north-new-hyde-park"
+  "auto": true,
+  "slug": "gurdwara-guru-tegh-bahadur-sahib-north-new-hyde-park"
  },
  {
   "name": "Guru Gobind Singh Sikh Center",
@@ -1784,6 +1852,7 @@
   ],
   "full_name": "Guru Gobind Singh Sikh Center",
   "desc": "A gurdwara on Old Country Road in Plainview. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "guru-gobind-singh-sikh-center-plainview"
  },
  {
@@ -1807,6 +1876,7 @@
   ],
   "full_name": "Plainview Gurudwara",
   "desc": "A gurdwara on Old Country Road in Westbury. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "auto": true,
   "slug": "plainview-gurudwara-westbury"
  },
  {
@@ -1830,6 +1900,7 @@
   ],
   "full_name": "Designs By Kamni",
   "desc": "A jeweler on South Broadway in Hicksville, inside Verma Plaza.",
+  "auto": true,
   "slug": "designs-by-kamni-hicksville"
  },
  {
@@ -1853,10 +1924,11 @@
   ],
   "full_name": "Jewels Galleria",
   "desc": "A jeweler on South Broadway in Hicksville, inside Shaheen Plaza.",
+  "auto": true,
   "slug": "jewels-galleria-hicksville"
  },
  {
-  "name": "Krupa Jewelers Inc.",
+  "name": "Krupa Jewelers",
   "cat": "jewelry",
   "type": "Jeweler",
   "address": "119 Broadway, Hicksville, NY 11801",
@@ -1876,7 +1948,8 @@
   ],
   "full_name": "Krupa Jewelers Inc.",
   "desc": "A jeweler on Broadway in Hicksville.",
-  "slug": "krupa-jewelers-inc-hicksville"
+  "auto": true,
+  "slug": "krupa-jewelers-hicksville"
  },
  {
   "name": "Kunal Jewelers",
@@ -1904,6 +1977,7 @@
   ],
   "full_name": "Kunal Jewelers - Indian Jewelry Store in Hicksville",
   "desc": "A jewelry store on East Old Country Road in Hicksville.",
+  "auto": true,
   "slug": "kunal-jewelers-hicksville"
  },
  {
@@ -1927,6 +2001,7 @@
   ],
   "full_name": "Jen's Henna Art",
   "desc": "A mehndi artist in Brentwood. Call or message ahead to book.",
+  "auto": true,
   "slug": "jen-s-henna-art-brentwood"
  },
  {
@@ -1950,6 +2025,7 @@
   ],
   "full_name": "Coco's Henna",
   "desc": "A tattoo shop on Rosewood Street in Central Islip. Call or message ahead to book.",
+  "auto": true,
   "slug": "coco-s-henna-central-islip"
  },
  {
@@ -1973,6 +2049,7 @@
   ],
   "full_name": "Uniqueshiv Henna and Nails",
   "desc": "A mehndi artist on Juniper Street in Central Islip. Call or message ahead to book.",
+  "auto": true,
   "slug": "uniqueshiv-henna-and-nails-central-islip"
  },
  {
@@ -1996,6 +2073,7 @@
   ],
   "full_name": "Shafs Henna",
   "desc": "A mehndi artist on Langdon Street in Franklin Square. Call or message ahead to book.",
+  "auto": true,
   "slug": "shafs-henna-franklin-square"
  },
  {
@@ -2024,6 +2102,7 @@
   ],
   "full_name": "Hikhmah Henna & Body Art",
   "desc": "A mehndi designer on Sterling Place in Hicksville. Call or message ahead to book.",
+  "auto": true,
   "slug": "hikhmah-henna-body-art-hicksville"
  },
  {
@@ -2047,6 +2126,7 @@
   ],
   "full_name": "Viral's Henna",
   "desc": "A mehndi artist on North Wantagh Avenue in Levittown. Call or message ahead to book.",
+  "auto": true,
   "slug": "viral-s-henna-levittown"
  },
  {
@@ -2070,6 +2150,7 @@
   ],
   "full_name": "Henna by sami",
   "desc": "A mehndi designer on Park Avenue in New Hyde Park. Call or message ahead to book.",
+  "auto": true,
   "slug": "henna-by-sami-new-hyde-park"
  },
  {
@@ -2093,6 +2174,7 @@
   ],
   "full_name": "JPbeautymehendi",
   "desc": "A mehndi designer on Lincoln Avenue in New Hyde Park. Call or message ahead to book.",
+  "auto": true,
   "slug": "jpbeautymehendi-new-hyde-park"
  },
  {
@@ -2116,6 +2198,7 @@
   ],
   "full_name": "Imli juni...",
   "desc": "A mehndi designer on Meyer Avenue in Valley Stream. Call or message ahead to book.",
+  "auto": true,
   "slug": "imli-juni-valley-stream"
  },
  {
@@ -2139,6 +2222,7 @@
   ],
   "full_name": "North Shore Islamic Center",
   "desc": "A mosque on Willis Avenue in Albertson. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "north-shore-islamic-center-albertson"
  },
  {
@@ -2167,6 +2251,7 @@
   ],
   "full_name": "Al-Rasheed Mosque",
   "desc": "A mosque on Grand Avenue in Baldwin. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "al-rasheed-mosque-baldwin"
  },
  {
@@ -2190,10 +2275,11 @@
   ],
   "full_name": "Masjid Darul Quran",
   "desc": "A mosque on East 3rd Avenue in Bay Shore. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-darul-quran-bay-shore"
  },
  {
-  "name": "Masjid Al-Baqi (Muslims On Long Island Inc)",
+  "name": "Masjid Al-Baqi",
   "cat": "mosques",
   "type": "Mosque",
   "address": "320 Central Ave, Bethpage, NY 11714",
@@ -2213,7 +2299,8 @@
   ],
   "full_name": "Masjid Al-Baqi (Muslims On Long Island Inc)",
   "desc": "A mosque on Central Avenue in Bethpage. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "masjid-al-baqi-muslims-on-long-island-inc-bethpage"
+  "auto": true,
+  "slug": "masjid-al-baqi-bethpage"
  },
  {
   "name": "Islamic Center Suffolk County: Shah E Najaf Center",
@@ -2236,6 +2323,7 @@
   ],
   "full_name": "Islamic Center Suffolk County: Shah E Najaf Center",
   "desc": "A mosque on Third Street in Brentwood. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-suffolk-county-shah-e-najaf-center-brentwood"
  },
  {
@@ -2264,6 +2352,7 @@
   ],
   "full_name": "Islamic Center of Deer Park",
   "desc": "A mosque on Grand Boulevard in Deer Park. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-of-deer-park-deer-park"
  },
  {
@@ -2287,6 +2376,7 @@
   ],
   "full_name": "Suleymaniye Mosque",
   "desc": "A mosque on Deer Pk Road in Dix Hills. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "suleymaniye-mosque-dix-hills"
  },
  {
@@ -2315,6 +2405,7 @@
   ],
   "full_name": "LIMS Masjid",
   "desc": "A mosque on East Meadow Avenue in East Meadow. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "lims-masjid-east-meadow"
  },
  {
@@ -2338,6 +2429,7 @@
   ],
   "full_name": "Elmont Islamic Center",
   "desc": "A mosque on Crest Avenue in Elmont. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "elmont-islamic-center-elmont"
  },
  {
@@ -2361,6 +2453,7 @@
   ],
   "full_name": "FATIMA MASJID",
   "desc": "A mosque on School Road in Elmont, inside Elmont Fire District EMS Squad and Maintenance. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "fatima-masjid-elmont"
  },
  {
@@ -2384,6 +2477,7 @@
   ],
   "full_name": "Jamia Zia Ul Quran",
   "desc": "A mosque on residential Apartment in Elmont. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "jamia-zia-ul-quran-elmont"
  },
  {
@@ -2407,6 +2501,7 @@
   ],
   "full_name": "Muhammadi Masjid",
   "desc": "A mosque on Elmont Road in Elmont. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "muhammadi-masjid-elmont"
  },
  {
@@ -2435,6 +2530,7 @@
   ],
   "full_name": "Masjid Bilal",
   "desc": "A mosque on Fulton Street in Farmingdale. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-bilal-farmingdale"
  },
  {
@@ -2458,6 +2554,7 @@
   ],
   "full_name": "Islamic Center of Five Towns",
   "desc": "A mosque on Hamilton Avenue in Hewlett. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-of-five-towns-hewlett"
  },
  {
@@ -2481,6 +2578,7 @@
   ],
   "full_name": "Al Mahdi Islamic Center",
   "desc": "A mosque on Ludy Street in Hicksville. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "al-mahdi-islamic-center-hicksville"
  },
  {
@@ -2504,6 +2602,7 @@
   ],
   "full_name": "Faizan e Aisha Mosque",
   "desc": "A mosque on Heitz Place in Hicksville. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "faizan-e-aisha-mosque-hicksville"
  },
  {
@@ -2527,6 +2626,7 @@
   ],
   "full_name": "Masjid Noor",
   "desc": "A mosque on Park Avenue in Huntington. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-noor-huntington"
  },
  {
@@ -2555,10 +2655,11 @@
   ],
   "full_name": "Fatima Alzahraa Mosque",
   "desc": "A mosque on Lake Shore Road in Lake Ronkonkoma. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "fatima-alzahraa-mosque-lake-ronkonkoma"
  },
  {
-  "name": "Suffolk Islamic Center (Lake Ronkonkoma Masjid)",
+  "name": "Suffolk Islamic Center",
   "cat": "mosques",
   "type": "Mosque",
   "address": "232 Ronkonkoma Ave, Lake Ronkonkoma, NY 11779",
@@ -2583,7 +2684,8 @@
   ],
   "full_name": "Suffolk Islamic Center (Lake Ronkonkoma Masjid)",
   "desc": "A mosque on Ronkonkoma Avenue in Lake Ronkonkoma. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "suffolk-islamic-center-lake-ronkonkoma-masjid-lake-ronkonkoma"
+  "auto": true,
+  "slug": "suffolk-islamic-center-lake-ronkonkoma"
  },
  {
   "name": "Yusufain Mosque",
@@ -2606,6 +2708,7 @@
   ],
   "full_name": "Yusufain Mosque",
   "desc": "A mosque on Neighborhood Road in Mastic Beach. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "yusufain-mosque-mastic-beach"
  },
  {
@@ -2629,6 +2732,7 @@
   ],
   "full_name": "Islamic Center of Medford-Coram",
   "desc": "A mosque on Lee Lane in Medford. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-of-medford-coram-medford"
  },
  {
@@ -2652,6 +2756,7 @@
   ],
   "full_name": "Islamic Center of Melville",
   "desc": "A mosque on Old East Neck Road in Melville. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-of-melville-melville"
  },
  {
@@ -2675,6 +2780,7 @@
   ],
   "full_name": "Osmaniye Mosque",
   "desc": "A mosque on Montauk Highway in Moriches. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "osmaniye-mosque-moriches"
  },
  {
@@ -2698,10 +2804,11 @@
   ],
   "full_name": "Mount Sinai Muslim Center",
   "desc": "A mosque on Mount Sinai-Coram Road in Mt Sinai. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "mount-sinai-muslim-center-mt-sinai"
  },
  {
-  "name": "Hillside Islamic Center (HIC)",
+  "name": "Hillside Islamic Center",
   "cat": "mosques",
   "type": "Mosque",
   "address": "300 Hillside Ave., New Hyde Park, NY 11040",
@@ -2726,7 +2833,8 @@
   ],
   "full_name": "Hillside Islamic Center (HIC)",
   "desc": "A mosque on Hillside Avenue in New Hyde Park. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "hillside-islamic-center-hic-new-hyde-park"
+  "auto": true,
+  "slug": "hillside-islamic-center-new-hyde-park"
  },
  {
   "name": "ICNA Nassau Community Center",
@@ -2754,6 +2862,7 @@
   ],
   "full_name": "ICNA Nassau Community Center",
   "desc": "A mosque on Jericho Turnpike in New Hyde Park. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "icna-nassau-community-center-new-hyde-park"
  },
  {
@@ -2777,6 +2886,7 @@
   ],
   "full_name": "Bellmore Mosque",
   "desc": "A mosque on Newbridge Road in North Bellmore. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "bellmore-mosque-north-bellmore"
  },
  {
@@ -2800,6 +2910,7 @@
   ],
   "full_name": "Long Island Mevlana Mosque",
   "desc": "A mosque on Terryville Road in Port Jefferson Station. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "long-island-mevlana-mosque-port-jefferson-station"
  },
  {
@@ -2823,6 +2934,7 @@
   ],
   "full_name": "Port Washington Masjid",
   "desc": "A mosque on Harbor Road in Port Washington. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "port-washington-masjid-port-washington"
  },
  {
@@ -2846,6 +2958,7 @@
   ],
   "full_name": "Riverhead Masjid",
   "desc": "A mosque on Railroad Avenue in Riverhead. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "riverhead-masjid-riverhead"
  },
  {
@@ -2869,10 +2982,11 @@
   ],
   "full_name": "Masjid TaHa",
   "desc": "A mosque on Nassau Road in Roosevelt. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-taha-roosevelt"
  },
  {
-  "name": "Shelter Rock Islamic Center (SRIC)",
+  "name": "Shelter Rock Islamic Center",
   "cat": "mosques",
   "type": "Mosque",
   "address": "2 Shelter Rock Rd, Roslyn, NY 11576",
@@ -2892,10 +3006,11 @@
   ],
   "full_name": "Shelter Rock Islamic Center (SRIC)",
   "desc": "A mosque on Shelter Rock Road in Roslyn. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "shelter-rock-islamic-center-sric-roslyn"
+  "auto": true,
+  "slug": "shelter-rock-islamic-center-roslyn"
  },
  {
-  "name": "Selden Mosque",
+  "name": "Selden Mosque (IALI)",
   "cat": "mosques",
   "type": "Mosque",
   "address": "10 Park Hill Dr, Selden, NY 11784",
@@ -2915,7 +3030,8 @@
   ],
   "full_name": "Selden Mosque - IALI",
   "desc": "A mosque on Park Hill Drive in Selden. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "selden-mosque-selden"
+  "auto": true,
+  "slug": "selden-mosque-iali-selden"
  },
  {
   "name": "Islaamic Center of Mastic-Shirley",
@@ -2938,6 +3054,7 @@
   ],
   "full_name": "Islaamic Center of Mastic-Shirley",
   "desc": "A mosque on William Floyd Parkway in Shirley. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islaamic-center-of-mastic-shirley-shirley"
  },
  {
@@ -2966,10 +3083,11 @@
   ],
   "full_name": "Masjid Hamza Islamic Center",
   "desc": "A mosque on Stuart Avenue in Valley Stream. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-hamza-islamic-center-valley-stream"
  },
  {
-  "name": "ICON",
+  "name": "Islamic Center of Nassau (ICON)",
   "cat": "mosques",
   "type": "Mosque",
   "address": "2856 Jerusalem Ave, Wantagh, NY 11793",
@@ -2994,7 +3112,8 @@
   ],
   "full_name": "ICON - Islamic Center of Nassau",
   "desc": "A mosque on Jerusalem Avenue in Wantagh. Check the mosque's own site or call for prayer and Jumu'ah times.",
-  "slug": "icon-wantagh"
+  "auto": true,
+  "slug": "islamic-center-of-nassau-icon-wantagh"
  },
  {
   "name": "Islamic Center of Long Island",
@@ -3017,6 +3136,7 @@
   ],
   "full_name": "Islamic Center of Long Island",
   "desc": "A mosque on Brush Hollow Road in Westbury. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "islamic-center-of-long-island-westbury"
  },
  {
@@ -3045,6 +3165,7 @@
   ],
   "full_name": "Masjid Allahu Akbar",
   "desc": "A mosque on North 22nd Street in Wheatley Heights. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "masjid-allahu-akbar-wheatley-heights"
  },
  {
@@ -3068,6 +3189,7 @@
   ],
   "full_name": "As Siraatal Mustaqeem Islamic Center",
   "desc": "A mosque on Straight Path in Wyandanch. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "auto": true,
   "slug": "as-siraatal-mustaqeem-islamic-center-wyandanch"
  },
  {
@@ -3096,6 +3218,7 @@
   ],
   "full_name": "Modern Wedding Photography",
   "desc": "A wedding photographer serving Long Island and the New York area, with no public storefront.",
+  "auto": true,
   "slug": "modern-wedding-photography-long-island"
  },
  {
@@ -3124,6 +3247,7 @@
   ],
   "full_name": "JS Visions Photography and Cinematography",
   "desc": "A wedding photographer on Franklin Avenue in Garden City.",
+  "auto": true,
   "slug": "js-visions-photography-and-cinematography-garden-city"
  },
  {
@@ -3152,6 +3276,7 @@
   ],
   "full_name": "Ajit Singh Photography",
   "desc": "A photography studio on North Newbridge Road in Hicksville.",
+  "auto": true,
   "slug": "ajit-singh-photography-hicksville"
  },
  {
@@ -3180,6 +3305,7 @@
   ],
   "full_name": "Lotus Wedding Photography",
   "desc": "A wedding photographer on Melville Park Road in Melville.",
+  "auto": true,
   "slug": "lotus-wedding-photography-melville"
  },
  {
@@ -3208,6 +3334,7 @@
   ],
   "full_name": "Kaul Photography",
   "desc": "A photographer on Crown Lane in Westbury.",
+  "auto": true,
   "slug": "kaul-photography-westbury"
  },
  {
@@ -3236,6 +3363,7 @@
   ],
   "full_name": "LONG ISLAND WEDDING & EVENT PLANNERS BOUTIQUE",
   "desc": "A wedding planner on Northern Boulevard in East Norwich, inside JoVon Photography & Video Inc.",
+  "auto": true,
   "slug": "long-island-wedding-event-planners-boutique-east-norwich"
  },
  {
@@ -3259,6 +3387,7 @@
   ],
   "full_name": "Glamorous Event Planners & Productions",
   "desc": "An event planner on West Old Country Road in Hicksville.",
+  "auto": true,
   "slug": "glamorous-event-planners-productions-hicksville"
  },
  {
@@ -3282,6 +3411,7 @@
   ],
   "full_name": "Chandai Events Luxury & Destination South Asian Wedding Event Planner",
   "desc": "A wedding planner on Jericho Turnpike in New Hyde Park.",
+  "auto": true,
   "slug": "chandai-events-luxury-destination-south-asian-wedding-event-planner-new-hyde-park"
  },
  {
@@ -3310,10 +3440,11 @@
   ],
   "full_name": "Ruban Events",
   "desc": "An event planner on Marcus Avenue in New Hyde Park.",
+  "auto": true,
   "slug": "ruban-events-new-hyde-park"
  },
  {
-  "name": "NY Event Planner & Design Inc",
+  "name": "NY Event Planner & Design",
   "cat": "planners",
   "type": "Event planner",
   "address": "65 W Merrick Rd, Valley Stream, NY 11580",
@@ -3333,7 +3464,8 @@
   ],
   "full_name": "NY Event Planner & Design Inc",
   "desc": "An event planner on West Merrick Road in Valley Stream.",
-  "slug": "ny-event-planner-design-inc-valley-stream"
+  "auto": true,
+  "slug": "ny-event-planner-design-valley-stream"
  },
  {
   "name": "Pandit Harish Sharma",
@@ -3361,6 +3493,7 @@
   ],
   "full_name": "Hindu Wedding Priest: Pandit Harish Sharma (Licensed Marriage Officiant)",
   "desc": "A Hindu wedding priest serving Long Island and the New York area, with no public storefront.",
+  "auto": true,
   "slug": "pandit-harish-sharma-long-island"
  },
  {
@@ -3384,6 +3517,7 @@
   ],
   "full_name": "Diwan Express Authentic Indian Food",
   "desc": "An Indian restaurant on Grand Avenue in Baldwin.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "diwan-express-authentic-indian-food-baldwin"
  },
@@ -3413,6 +3547,7 @@
   ],
   "full_name": "Only vegan 4 me",
   "desc": "An Indian restaurant on Atlantic Avenue in Baldwin.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "only-vegan-4-me-baldwin"
  },
@@ -3442,6 +3577,7 @@
   ],
   "full_name": "Raagini",
   "desc": "An Indian restaurant on Atlantic Avenue in Baldwin.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "raagini-baldwin"
  },
@@ -3466,6 +3602,7 @@
   ],
   "full_name": "Khyber Grill & Gyro",
   "desc": "A Modern Indian restaurant on Spur Drive South in Bay Shore.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "khyber-grill-gyro-bay-shore"
  },
@@ -3490,6 +3627,7 @@
   ],
   "full_name": "India Cafe",
   "desc": "An Indian restaurant on Jericho Turnpike in Bellerose.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "india-cafe-bellerose"
  },
@@ -3514,6 +3652,7 @@
   ],
   "full_name": "Mango Indian Cuisine",
   "desc": "An Indian restaurant on Merrick Road in Bellmore.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "mango-indian-cuisine-bellmore"
  },
@@ -3538,6 +3677,7 @@
   ],
   "full_name": "Banjara",
   "desc": "An Indian restaurant on North Wantagh Avenue in Bethpage.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "banjara-bethpage"
  },
@@ -3562,6 +3702,7 @@
   ],
   "full_name": "Halal Express Kabab House",
   "desc": "An Afghan restaurant on Hicksville Road in Bethpage.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "halal-express-kabab-house-bethpage"
  },
@@ -3586,6 +3727,7 @@
   ],
   "full_name": "Taste of Chennai",
   "desc": "A South Indian restaurant on Hicksville Road in Bethpage.",
+  "auto": true,
   "cuisine": "South Indian",
   "slug": "taste-of-chennai-bethpage"
  },
@@ -3610,6 +3752,7 @@
   ],
   "full_name": "Tapovana Lunch Box",
   "desc": "A South Indian restaurant on Montauk Highway in Bridgehampton.",
+  "auto": true,
   "cuisine": "South Indian",
   "slug": "tapovana-lunch-box-bridgehampton"
  },
@@ -3634,6 +3777,7 @@
   ],
   "full_name": "The Royale Restaurant",
   "desc": "An Indian restaurant on Old Country Road in Carle Place, inside Holiday Inn Westbury-Long Island by IHG.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "the-royale-restaurant-carle-place"
  },
@@ -3658,6 +3802,7 @@
   ],
   "full_name": "Aladdin Indian & Pakistani Restaurant (Zabiha Halal)",
   "desc": "A restaurant on Middle Country Road in Centereach.",
+  "auto": true,
   "slug": "aladdin-indian-pakistani-restaurant-centereach"
  },
  {
@@ -3681,6 +3826,7 @@
   ],
   "full_name": "Apna’s Cafe & Kitchen",
   "desc": "An Indian restaurant on Jericho Turnpike in Commack, inside Apna Bazar Farmers Market.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "apna-s-cafe-kitchen-commack"
  },
@@ -3710,6 +3856,7 @@
   ],
   "full_name": "SAFFIRE MODERN INDIAN",
   "desc": "An Indian restaurant on Jericho Turnpike in Commack.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "saffire-modern-indian-commack"
  },
@@ -3734,6 +3881,7 @@
   ],
   "full_name": "Ali’s Biryani BBQ & Grill",
   "desc": "A Pakistani restaurant on NY-112 in Coram.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "ali-s-biryani-bbq-grill-coram"
  },
@@ -3763,6 +3911,7 @@
   ],
   "full_name": "INDE SPICE",
   "desc": "An Indian restaurant on Commack Road in Deer Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "inde-spice-deer-park"
  },
@@ -3792,6 +3941,7 @@
   ],
   "full_name": "Sabr Modern Indian Bistro",
   "desc": "An Indian restaurant on The Arches Cir in Deer Park, inside Tanger Outlets Deer Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "sabr-modern-indian-bistro-deer-park"
  },
@@ -3816,6 +3966,7 @@
   ],
   "full_name": "Hampton Chutney Co.",
   "desc": "An Indian restaurant on Newtown Lane in East Hampton.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "hampton-chutney-co-east-hampton"
  },
@@ -3840,11 +3991,12 @@
   ],
   "full_name": "Spice & Curry Kabab & Grill",
   "desc": "A Pakistani restaurant on Hempstead Turnpike in East Meadow.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "spice-curry-kabab-grill-east-meadow"
  },
  {
-  "name": "Spice Gardens Bar and Grill Inc",
+  "name": "Spice Gardens Bar and Grill",
   "cat": "restaurants",
   "type": "Indian restaurant",
   "address": "376 Merrick Ave, East Meadow, NY 11554",
@@ -3869,8 +4021,9 @@
   ],
   "full_name": "Spice Gardens Bar and Grill Inc",
   "desc": "An Indian restaurant on Merrick Avenue in East Meadow.",
+  "auto": true,
   "cuisine": "Indian",
-  "slug": "spice-gardens-bar-and-grill-inc-east-meadow"
+  "slug": "spice-gardens-bar-and-grill-east-meadow"
  },
  {
   "name": "Chandni Restaurant",
@@ -3898,6 +4051,7 @@
   ],
   "full_name": "Chandni Restaurant",
   "desc": "A Pakistani restaurant on Elmont Road in Elmont.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "chandni-restaurant-elmont"
  },
@@ -3922,6 +4076,7 @@
   ],
   "full_name": "Qissa Khwani Kitchen - Catering",
   "desc": "A Pakistani restaurant on World Avenue Apt 2 in Elmont.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "qissa-khwani-kitchen-elmont"
  },
@@ -3946,6 +4101,7 @@
   ],
   "full_name": "Halal Briyani and Kebab House",
   "desc": "An Indian takeaway on Jericho Turnpike in Floral Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "halal-briyani-and-kebab-house-floral-park"
  },
@@ -3970,6 +4126,7 @@
   ],
   "full_name": "Akbar Restaurant",
   "desc": "An Indian restaurant on South Street in Garden City.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "akbar-restaurant-garden-city"
  },
@@ -3994,6 +4151,7 @@
   ],
   "full_name": "Mint",
   "desc": "A Modern Indian restaurant on Ring Road West in Garden City, inside Roosevelt Field.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "mint-garden-city"
  },
@@ -4018,6 +4176,7 @@
   ],
   "full_name": "Taste of India",
   "desc": "An Indian restaurant on Old Country Road in Garden City.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "taste-of-india-garden-city"
  },
@@ -4042,6 +4201,7 @@
   ],
   "full_name": "Mazar Kabab New York - Halal Afghan Cuisine",
   "desc": "An Afghan restaurant on Glen Street in Glen Cove.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "mazar-kabab-new-york-glen-cove"
  },
@@ -4071,6 +4231,7 @@
   ],
   "full_name": "Masala Delight",
   "desc": "A restaurant on South Middle Neck Road in Great Neck.",
+  "auto": true,
   "slug": "masala-delight-great-neck"
  },
  {
@@ -4099,6 +4260,7 @@
   ],
   "full_name": "Beenz Indian Grill & Bar",
   "desc": "An Indian restaurant on Motor Parkway in Hauppauge.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "beenz-indian-grill-bar-hauppauge"
  },
@@ -4128,6 +4290,7 @@
   ],
   "full_name": "Clay Oven Halal",
   "desc": "An Indian restaurant on Veterans Memorial Highway in Hauppauge.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "clay-oven-halal-hauppauge"
  },
@@ -4157,11 +4320,42 @@
   ],
   "full_name": "Bhaijaan",
   "desc": "An Indian restaurant on North Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "bhaijaan-hicksville"
  },
  {
-  "name": "Bikanervala Hicksville",
+  "name": "Bhatura King",
+  "cat": "restaurants",
+  "type": "Indian restaurant",
+  "address": "27 Woodbury Rd, Hicksville, NY 11801",
+  "town": "Hicksville",
+  "zip": "11801",
+  "county": "Nassau",
+  "phone": "+19299201007",
+  "website": "https://www.bhaturakingny.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Bhatura+King+Hicksville/data=!4m7!3m6!1s0x89c28100052cb775:0xa532827d8bf2bc29!8m2!3d40.7695324!4d-73.5209215!16s%2Fg%2F11lz5tw0b9!19sChIJdbcsBQCBwokRKbzyi32CMqU?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://www.bhaturakingny.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Bhatura King Hicksville",
+  "desc": "An Indian restaurant on Woodbury Road in Hicksville.",
+  "auto": true,
+  "cuisine": "Indian",
+  "slug": "bhatura-king-hicksville"
+ },
+ {
+  "name": "Bikanervala",
   "cat": "restaurants",
   "type": "Indian restaurant",
   "address": "594 S Broadway, Hicksville, NY 11801",
@@ -4186,8 +4380,9 @@
   ],
   "full_name": "Bikanervala Hicksville",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
-  "slug": "bikanervala-hicksville-hicksville"
+  "slug": "bikanervala-hicksville"
  },
  {
   "name": "Biryani House",
@@ -4215,6 +4410,7 @@
   ],
   "full_name": "Biryani House",
   "desc": "A Pakistani restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "biryani-house-hicksville"
  },
@@ -4244,6 +4440,7 @@
   ],
   "full_name": "Chennai Dosas",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "chennai-dosas-hicksville"
  },
@@ -4273,6 +4470,7 @@
   ],
   "full_name": "Choopan Grill",
   "desc": "An Afghan restaurant on West Marie Street in Hicksville.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "choopan-grill-hicksville"
  },
@@ -4297,6 +4495,7 @@
   ],
   "full_name": "Desi Bites Cafe (Hicksville)",
   "desc": "An Indian restaurant on West Old Country Road in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "desi-bites-cafe-hicksville"
  },
@@ -4321,6 +4520,7 @@
   ],
   "full_name": "Diwan Indian Restaurant and Bar",
   "desc": "An Indian restaurant on South Broadway in Hicksville, inside Patel Brothers.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "diwan-indian-restaurant-and-bar-hicksville"
  },
@@ -4345,6 +4545,7 @@
   ],
   "full_name": "Dosa World South & North Indian Vegetarian Restaurant",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "dosa-world-south-north-indian-vegetarian-restaurant-hicksville"
  },
@@ -4369,6 +4570,7 @@
   ],
   "full_name": "Food Street",
   "desc": "A Pakistani restaurant on South Broadway in Hicksville, inside Soni Centre.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "food-street-hicksville"
  },
@@ -4398,6 +4600,7 @@
   ],
   "full_name": "Gallifood",
   "desc": "An Indian restaurant on Inside Holy Burger in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "gallifood-hicksville"
  },
@@ -4427,6 +4630,7 @@
   ],
   "full_name": "House of Dosas",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "house-of-dosas-hicksville"
  },
@@ -4451,6 +4655,7 @@
   ],
   "full_name": "Indian Delight",
   "desc": "An Indian restaurant on Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "indian-delight-hicksville"
  },
@@ -4475,6 +4680,7 @@
   ],
   "full_name": "Jazeera Indian Hyderabadi Restaurant (Zabiha Halal, HMS CERT.)",
   "desc": "An Indian restaurant on West John Street in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "jazeera-indian-hyderabadi-restaurant-hicksville"
  },
@@ -4504,6 +4710,7 @@
   ],
   "full_name": "Kababjees",
   "desc": "A Pakistani restaurant on South Broadway in Hicksville, inside Hicksville Terrace Shopping Ct.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "kababjees-hicksville"
  },
@@ -4533,6 +4740,7 @@
   ],
   "full_name": "Kandahar Grill",
   "desc": "An Afghan restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "kandahar-grill-hicksville"
  },
@@ -4557,6 +4765,7 @@
   ],
   "full_name": "Kebab House (Halal)",
   "desc": "An Afghan restaurant on South Broadway in Hicksville, inside Broadway Plaza.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "kebab-house-hicksville"
  },
@@ -4581,6 +4790,7 @@
   ],
   "full_name": "Kiran Palace",
   "desc": "An Indian restaurant on East Old Country Road in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "kiran-palace-hicksville"
  },
@@ -4610,6 +4820,7 @@
   ],
   "full_name": "Lotus Indian Fusion",
   "desc": "An Indian restaurant on East Marie Street in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "lotus-indian-fusion-hicksville"
  },
@@ -4634,11 +4845,12 @@
   ],
   "full_name": "Main Bakhtar Halal Kabab",
   "desc": "A Halal restaurant on North Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Halal",
   "slug": "main-bakhtar-halal-kabab-hicksville"
  },
  {
-  "name": "Mehfil Restaurant ( Zabiah Halal Pakistani Cuisine )",
+  "name": "Mehfil Restaurant",
   "cat": "restaurants",
   "type": "Halal restaurant",
   "address": "46 W Old Country Rd, Hicksville, NY 11801",
@@ -4658,11 +4870,12 @@
   ],
   "full_name": "Mehfil Restaurant ( Zabiah Halal Pakistani Cuisine )",
   "desc": "A Halal restaurant on West Old Country Road in Hicksville.",
+  "auto": true,
   "cuisine": "Halal",
-  "slug": "mehfil-restaurant-zabiah-halal-pakistani-cuisine-hicksville"
+  "slug": "mehfil-restaurant-hicksville"
  },
  {
-  "name": "Mitran Da Dhaba ( 100% Pure Vegetarian )",
+  "name": "Mitran Da Dhaba",
   "cat": "restaurants",
   "type": "Indian restaurant",
   "address": "535 S Broadway, Hicksville, NY 11801",
@@ -4687,8 +4900,9 @@
   ],
   "full_name": "Mitran Da Dhaba ( 100% Pure Vegetarian )",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
-  "slug": "mitran-da-dhaba-100-pure-vegetarian-hicksville"
+  "slug": "mitran-da-dhaba-hicksville"
  },
  {
   "name": "New Chilli & Curry",
@@ -4711,11 +4925,12 @@
   ],
   "full_name": "New Chilli & Curry",
   "desc": "An Indian restaurant on Woodbury Road in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "new-chilli-curry-hicksville"
  },
  {
-  "name": "Punjabi Chaap Hicksville",
+  "name": "Punjabi Chaap",
   "cat": "restaurants",
   "type": "Vegetarian restaurant",
   "address": "495 S Broadway Ste 6, Hicksville, NY 11801",
@@ -4735,10 +4950,11 @@
   ],
   "full_name": "Punjabi Chaap Hicksville",
   "desc": "A vegetarian restaurant on South Broadway in Hicksville, inside Hicksville Terrace Shopping Ct.",
-  "slug": "punjabi-chaap-hicksville-hicksville"
+  "auto": true,
+  "slug": "punjabi-chaap-hicksville"
  },
  {
-  "name": "Punjabi Dhaba Hicksville",
+  "name": "Punjabi Dhaba",
   "cat": "restaurants",
   "type": "Indian restaurant",
   "address": "257 S Broadway, Hicksville, NY 11801",
@@ -4758,8 +4974,9 @@
   ],
   "full_name": "Punjabi Dhaba Hicksville",
   "desc": "An Indian restaurant on South Broadway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
-  "slug": "punjabi-dhaba-hicksville-hicksville"
+  "slug": "punjabi-dhaba-hicksville"
  },
  {
   "name": "Shaheen Restaurant",
@@ -4787,11 +5004,12 @@
   ],
   "full_name": "Shaheen Restaurant",
   "desc": "A Pakistani restaurant on South Broadway in Hicksville, inside Shaheen Plaza.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "shaheen-restaurant-hicksville"
  },
  {
-  "name": "South & North Indian Cuisine Inc",
+  "name": "South & North Indian Cuisine",
   "cat": "restaurants",
   "type": "Kerala restaurant",
   "address": "39 W John St, Hicksville, NY 11801",
@@ -4816,8 +5034,9 @@
   ],
   "full_name": "South & North Indian Cuisine Inc",
   "desc": "A Kerala restaurant on West John Street in Hicksville.",
+  "auto": true,
   "cuisine": "Kerala",
-  "slug": "south-north-indian-cuisine-inc-hicksville"
+  "slug": "south-north-indian-cuisine-hicksville"
  },
  {
   "name": "Sunshine Hicksville",
@@ -4845,6 +5064,7 @@
   ],
   "full_name": "Sunshine Hicksville",
   "desc": "A Pakistani restaurant on West Old Country Road in Hicksville.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "sunshine-hicksville-hicksville"
  },
@@ -4869,11 +5089,12 @@
   ],
   "full_name": "Taste of Mumbai",
   "desc": "A Modern Indian restaurant on Levittown Parkway in Hicksville.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "taste-of-mumbai-hicksville"
  },
  {
-  "name": "Village",
+  "name": "Village: The Soul of India",
   "cat": "restaurants",
   "type": "Vegetarian restaurant",
   "address": "11 W Marie St, Hicksville, NY 11801",
@@ -4893,7 +5114,8 @@
   ],
   "full_name": "Village - The Soul of India",
   "desc": "A vegetarian restaurant on West Marie Street in Hicksville.",
-  "slug": "village-hicksville"
+  "auto": true,
+  "slug": "village-the-soul-of-india-hicksville"
  },
  {
   "name": "Vintage Mirchi",
@@ -4916,6 +5138,7 @@
   ],
   "full_name": "Vintage Mirchi",
   "desc": "A North Indian restaurant on Bethpage Road in Hicksville, inside Kundan Mall, Kundan Galleria.",
+  "auto": true,
   "cuisine": "North Indian",
   "slug": "vintage-mirchi-hicksville"
  },
@@ -4940,6 +5163,7 @@
   ],
   "full_name": "Jassi's Fine Indian Cuisine",
   "desc": "An Indian restaurant on Union Turnpike in Hillside Manor.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "jassi-s-fine-indian-cuisine-hillside-manor"
  },
@@ -4964,6 +5188,7 @@
   ],
   "full_name": "Bombay Grill of Huntington",
   "desc": "An Indian restaurant on Gerard Street in Huntington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "bombay-grill-of-huntington-huntington"
  },
@@ -4988,6 +5213,7 @@
   ],
   "full_name": "IKKA Indian Dining & Mixology Bar",
   "desc": "An Indian restaurant on New York Avenue in Huntington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "ikka-indian-dining-mixology-bar-huntington"
  },
@@ -5012,6 +5238,7 @@
   ],
   "full_name": "Kabul Afghan Restaurant",
   "desc": "An Afghan restaurant on East Jericho Turnpike in Huntington.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "kabul-afghan-restaurant-huntington"
  },
@@ -5036,6 +5263,7 @@
   ],
   "full_name": "KAHANI - Punjabi Cocktail Bar",
   "desc": "An Indian restaurant on New York Avenue in Huntington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "kahani-huntington"
  },
@@ -5060,6 +5288,7 @@
   ],
   "full_name": "Nirvana Fine Dine Indian Restaurant",
   "desc": "An Indian restaurant on Main Street in Huntington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "nirvana-fine-dine-indian-restaurant-huntington"
  },
@@ -5084,6 +5313,7 @@
   ],
   "full_name": "Desi Zaika",
   "desc": "A Halal restaurant on East Jericho Turnpike in Huntington Station.",
+  "auto": true,
   "cuisine": "Halal",
   "slug": "desi-zaika-huntington-station"
  },
@@ -5113,6 +5343,7 @@
   ],
   "full_name": "Frontier Karahi House",
   "desc": "A South Asian restaurant on East Jericho Turnpike in Huntington Station.",
+  "auto": true,
   "slug": "frontier-karahi-house-huntington-station"
  },
  {
@@ -5136,6 +5367,7 @@
   ],
   "full_name": "GG’s Masalah Grill",
   "desc": "An Indian restaurant on Walt Whitman Road in Huntington Station.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "gg-s-masalah-grill-huntington-station"
  },
@@ -5160,6 +5392,7 @@
   ],
   "full_name": "Luxe of Jericho",
   "desc": "An Indian restaurant on Jericho Turnpike in Jericho, inside Jericho Executive Plaza.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "luxe-of-jericho-jericho"
  },
@@ -5184,6 +5417,7 @@
   ],
   "full_name": "Crown of Spices - Authentic South Indian Restaurant & Bar (Veg & Non Veg)",
   "desc": "A South Indian restaurant on East Village Green in Levittown.",
+  "auto": true,
   "cuisine": "South Indian",
   "slug": "crown-of-spices-levittown"
  },
@@ -5208,6 +5442,7 @@
   ],
   "full_name": "Currywala NY Indian cuisine",
   "desc": "An Indian restaurant on North Newbridge Road in Levittown.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "currywala-ny-indian-cuisine-levittown"
  },
@@ -5232,6 +5467,7 @@
   ],
   "full_name": "Indian Express Cuisine",
   "desc": "An Indian restaurant on Gardiners Avenue in Levittown.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "indian-express-cuisine-levittown"
  },
@@ -5256,6 +5492,7 @@
   ],
   "full_name": "Manjit's Temple of Spice",
   "desc": "An Indian restaurant on Shepherd Lane in Levittown.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "manjit-s-temple-of-spice-levittown"
  },
@@ -5285,6 +5522,7 @@
   ],
   "full_name": "Maya Indian Cuisine (Halal)",
   "desc": "An Indian restaurant on Center Lane in Levittown.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "maya-indian-cuisine-levittown"
  },
@@ -5314,6 +5552,7 @@
   ],
   "full_name": "Spice Village",
   "desc": "An Indian restaurant on Division Avenue in Levittown.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "spice-village-levittown"
  },
@@ -5338,6 +5577,7 @@
   ],
   "full_name": "Tandoor Grill",
   "desc": "An Indian restaurant on West Beech Street in Long Beach.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "tandoor-grill-long-beach"
  },
@@ -5362,6 +5602,7 @@
   ],
   "full_name": "Nanking Hilton",
   "desc": "An Indian restaurant on Broadhollow Road in Melville, inside Hilton Long Island/Huntington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "nanking-hilton-melville"
  },
@@ -5386,6 +5627,7 @@
   ],
   "full_name": "Punjab in Mineola",
   "desc": "An Indian restaurant on Mineola Boulevard in Mineola.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "punjab-in-mineola-mineola"
  },
@@ -5410,6 +5652,7 @@
   ],
   "full_name": "Afghan Grill",
   "desc": "An Afghan restaurant on Hillside Avenue in New Hyde Park.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "afghan-grill-new-hyde-park"
  },
@@ -5434,6 +5677,7 @@
   ],
   "full_name": "Crown of Spices - Authentic South Indian Restaurant (Veg & Non-Veg)",
   "desc": "A South Indian restaurant on Hillside Avenue in New Hyde Park.",
+  "auto": true,
   "cuisine": "South Indian",
   "slug": "crown-of-spices-new-hyde-park"
  },
@@ -5458,6 +5702,7 @@
   ],
   "full_name": "Curry Days",
   "desc": "A Kerala restaurant on Jericho Turnpike in New Hyde Park.",
+  "auto": true,
   "cuisine": "Kerala",
   "slug": "curry-days-new-hyde-park"
  },
@@ -5482,6 +5727,7 @@
   ],
   "full_name": "Minny's Bar & Grill",
   "desc": "A Modern Indian restaurant on Hillside Avenue in New Hyde Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "minny-s-bar-grill-new-hyde-park"
  },
@@ -5506,6 +5752,7 @@
   ],
   "full_name": "Nanking",
   "desc": "An Indian restaurant on Hillside Avenue in North New Hyde Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "nanking-north-new-hyde-park"
  },
@@ -5535,6 +5782,7 @@
   ],
   "full_name": "Art Of Spices Indian Restaurant in Patchogue",
   "desc": "A North Indian restaurant on South Ocean Avenue in Patchogue.",
+  "auto": true,
   "cuisine": "North Indian",
   "slug": "art-of-spices-indian-restaurant-in-patchogue-patchogue"
  },
@@ -5564,6 +5812,7 @@
   ],
   "full_name": "Pakka Desi",
   "desc": "An Indian restaurant on Sunnyside Boulevard in Plainview, inside Holiday Inn Plainview-Long Island by IHG.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "pakka-desi-plainview"
  },
@@ -5588,6 +5837,7 @@
   ],
   "full_name": "Curry Club at Saghar",
   "desc": "An Indian restaurant on West Broadway in Port Jefferson.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "curry-club-at-saghar-port-jefferson"
  },
@@ -5617,6 +5867,7 @@
   ],
   "full_name": "Dawat Indian Cuisine",
   "desc": "An Indian restaurant on Port Washington Boulevard in Port Washington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "dawat-indian-cuisine-port-washington"
  },
@@ -5641,6 +5892,7 @@
   ],
   "full_name": "Diwan Indian Restaurant",
   "desc": "An Indian restaurant on Shore Road in Port Washington.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "diwan-indian-restaurant-port-washington"
  },
@@ -5670,6 +5922,7 @@
   ],
   "full_name": "Color of Spices...",
   "desc": "An Indian restaurant on Sunrise Highway in Rockville Centre.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "color-of-spices-rockville-centre"
  },
@@ -5694,6 +5947,7 @@
   ],
   "full_name": "Punjabi Bites",
   "desc": "A Punjabi restaurant on Sunrise Highway in Rockville Centre.",
+  "auto": true,
   "cuisine": "Punjabi",
   "slug": "punjabi-bites-rockville-centre"
  },
@@ -5718,6 +5972,7 @@
   ],
   "full_name": "Maa's Indian Kitchen",
   "desc": "A takeout Restaurant on Sea Cliff Avenue in Sea Cliff.",
+  "auto": true,
   "slug": "maa-s-indian-kitchen-sea-cliff"
  },
  {
@@ -5741,11 +5996,12 @@
   ],
   "full_name": "The Onion Tree",
   "desc": "An Indian restaurant on Sea Cliff Avenue in Sea Cliff.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "the-onion-tree-sea-cliff"
  },
  {
-  "name": "Fuchka Xpress (ফুচকা এক্সপ্রেস)",
+  "name": "Fuchka Xpress",
   "cat": "restaurants",
   "type": "Bengali restaurant",
   "address": "600 Middle Country Rd, Selden, NY 11784",
@@ -5765,6 +6021,7 @@
   ],
   "full_name": "Fuchka Xpress (ফুচকা এক্সপ্রেস)",
   "desc": "A Bengali restaurant on Middle Country Road in Selden.",
+  "auto": true,
   "cuisine": "Bengali",
   "slug": "fuchka-xpress-selden"
  },
@@ -5794,6 +6051,7 @@
   ],
   "full_name": "Halal red chilli",
   "desc": "A Pakistani restaurant on Middle Country Road in Selden.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "halal-red-chilli-selden"
  },
@@ -5818,6 +6076,7 @@
   ],
   "full_name": "Kababjees",
   "desc": "A Pakistani restaurant on Middle Country Road in Selden.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "kababjees-selden"
  },
@@ -5842,6 +6101,7 @@
   ],
   "full_name": "Taj Crown of India",
   "desc": "An Indian restaurant on Woods Corner Road in Setauket- East Setauket.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "taj-crown-of-india-setauket-east-setauket"
  },
@@ -5866,6 +6126,7 @@
   ],
   "full_name": "Saaz Indian Cuisine",
   "desc": "An Indian restaurant on County Road 39 in Southampton.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "saaz-indian-cuisine-southampton"
  },
@@ -5890,6 +6151,7 @@
   ],
   "full_name": "Spice Hub - Indian Fusion in Syosset, NY",
   "desc": "A restaurant on Jackson Avenue in Syosset.",
+  "auto": true,
   "slug": "spice-hub-syosset"
  },
  {
@@ -5913,6 +6175,7 @@
   ],
   "full_name": "The Paratha House",
   "desc": "An Indian restaurant on Jericho Turnpike in Syosset, inside Way of Life Wholesome Eatery.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "the-paratha-house-syosset"
  },
@@ -5937,6 +6200,7 @@
   ],
   "full_name": "Afghan Saffron And Spice",
   "desc": "An Afghan restaurant on Dutch Broadway in Valley Stream.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "afghan-saffron-and-spice-valley-stream"
  },
@@ -5961,6 +6225,7 @@
   ],
   "full_name": "Balkh Kabab Afghan Chai Khana",
   "desc": "An Afghan restaurant on West Merrick Road in Valley Stream.",
+  "auto": true,
   "cuisine": "Afghan",
   "slug": "balkh-kabab-afghan-chai-khana-valley-stream"
  },
@@ -5990,11 +6255,12 @@
   ],
   "full_name": "Butt Karahi House",
   "desc": "A Halal restaurant on North Central Avenue in Valley Stream.",
+  "auto": true,
   "cuisine": "Halal",
   "slug": "butt-karahi-house-valley-stream"
  },
  {
-  "name": "Labbaik Karahi Inc",
+  "name": "Labbaik Karahi",
   "cat": "restaurants",
   "type": "Pakistani restaurant",
   "address": "1682 Central Ct, Valley Stream, NY 11580",
@@ -6014,8 +6280,9 @@
   ],
   "full_name": "Labbaik Karahi Inc",
   "desc": "A Pakistani restaurant on Central Court in Valley Stream.",
+  "auto": true,
   "cuisine": "Pakistani",
-  "slug": "labbaik-karahi-inc-valley-stream"
+  "slug": "labbaik-karahi-valley-stream"
  },
  {
   "name": "Lahore Kabab House",
@@ -6038,6 +6305,7 @@
   ],
   "full_name": "Lahore Kabab House",
   "desc": "A Halal restaurant on North Central Avenue in Valley Stream.",
+  "auto": true,
   "cuisine": "Halal",
   "slug": "lahore-kabab-house-valley-stream"
  },
@@ -6062,6 +6330,7 @@
   ],
   "full_name": "Sanjha chula",
   "desc": "An Indian restaurant on Dutch Broadway in Valley Stream.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "sanjha-chula-valley-stream"
  },
@@ -6086,6 +6355,7 @@
   ],
   "full_name": "Tandoori Twist",
   "desc": "A restaurant on Rockaway Avenue in Valley Stream.",
+  "auto": true,
   "slug": "tandoori-twist-valley-stream"
  },
  {
@@ -6109,6 +6379,7 @@
   ],
   "full_name": "Kabul Kabab House",
   "desc": "A Halal restaurant on Post Avenue in Westbury.",
+  "auto": true,
   "cuisine": "Halal",
   "slug": "kabul-kabab-house-westbury"
  },
@@ -6133,6 +6404,7 @@
   ],
   "full_name": "Karahi Adda",
   "desc": "A Pakistani restaurant on Old Country Road in Westbury.",
+  "auto": true,
   "cuisine": "Pakistani",
   "slug": "karahi-adda-westbury"
  },
@@ -6157,11 +6429,325 @@
   ],
   "full_name": "Varli Indian Street Kitchen",
   "desc": "An Indian restaurant on Hillside Avenue in Williston Park.",
+  "auto": true,
   "cuisine": "Indian",
   "slug": "varli-indian-street-kitchen-williston-park"
  },
  {
-  "name": "Pink Me UP (Indian salon)/Gilma",
+  "name": "Aaina Eyebrow Threading",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "347 Old Country Rd, Carle Place, NY 11514",
+  "town": "Carle Place",
+  "zip": "11514",
+  "county": "Nassau",
+  "phone": "+15162406933",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "The Gold Standard of Carle Place",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Aaina+Eyebrow+Threading/data=!4m7!3m6!1s0x89c2877929773b09:0x5489edc4713edcaa!8m2!3d40.745118!4d-73.6058665!16s%2Fg%2F12hsb3xb7!19sChIJCTt3KXmHwokRqtw-ccTtiVQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Aaina Eyebrow Threading",
+  "desc": "A beauty salon on Old Country Road in Carle Place, inside The Gold Standard of Carle Place.",
+  "auto": true,
+  "slug": "aaina-eyebrow-threading-carle-place"
+ },
+ {
+  "name": "Ayat Beauty hair & threading salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "118 Veterans Memorial Hwy Ste 162, Commack, NY 11725",
+  "town": "Commack",
+  "zip": "11725",
+  "county": "Suffolk",
+  "phone": "+16317879990",
+  "website": "http://ayatbeautysalon.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Ayat+Beauty+hair+%26+threading+salon/data=!4m7!3m6!1s0x89e8294754c73607:0x19a4be335a0b8fee!8m2!3d40.8383514!4d-73.284686!16s%2Fg%2F11s5h3z8lr!19sChIJBzbHVEcp6IkR7o8LWjO-pBk?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Ayat Beauty hair & threading salon",
+  "desc": "A beauty salon on Veterans Memorial Highway in Commack.",
+  "auto": true,
+  "slug": "ayat-beauty-hair-threading-salon-commack"
+ },
+ {
+  "name": "Shubh Beauty",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "85 Crooked Hill Rd, Commack, NY 11725",
+  "town": "Commack",
+  "zip": "11725",
+  "county": "Suffolk",
+  "phone": "+15169602205",
+  "website": "https://www.shubhbeauty.com/",
+  "temp_closed": false,
+  "located_in": "Walmart",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Shubh+Beauty+-+Commack,+NY+%28Inside+Walmart%29/data=!4m7!3m6!1s0x89e82f79c70d316b:0x9d09e2208acda6c5!8m2!3d40.8118087!4d-73.2893999!16s%2Fg%2F11lv_mxh5m!19sChIJazENx3kv6IkRxabNiiDiCZ0?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://www.shubhbeauty.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Shubh Beauty - Commack, NY (Inside Walmart)",
+  "desc": "A beauty salon on Crooked Hill Road in Commack, inside Walmart.",
+  "auto": true,
+  "slug": "shubh-beauty-commack"
+ },
+ {
+  "name": "Marina Beauty Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "1864 Deer Park Ave, Deer Park, NY 11729",
+  "town": "Deer Park",
+  "zip": "11729",
+  "county": "Suffolk",
+  "phone": "+16316671700",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Marina+Beauty+Salon+-+Eyebrow+Threading,+Facials,+Waxing,+Keratin+Treatment,+Hair+Cut,+Color+and+Styles/data=!4m7!3m6!1s0x89e82c35e9aa1267:0xf1905b8e00a47a5a!8m2!3d40.7599426!4d-73.328994!16s%2Fg%2F1td1qxyq!19sChIJZxKq6TUs6IkRWnqkAI5bkPE?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Marina Beauty Salon - Eyebrow Threading, Facials, Waxing, Keratin Treatment, Hair Cut, Color and Styles",
+  "desc": "A beauty salon on Deer Park Avenue in Deer Park.",
+  "auto": true,
+  "slug": "marina-beauty-salon-deer-park"
+ },
+ {
+  "name": "Blink N Brows",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "2566 A Hempstead Tpke, East Meadow, NY 11554",
+  "town": "East Meadow",
+  "zip": "11554",
+  "county": "Nassau",
+  "phone": "+15164000516",
+  "website": "http://www.blinknbrows.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/BLINK+N+BROWS+-+Threading,+Eyelash+%26+Waxing+Salon/data=!4m7!3m6!1s0x89c27f697be0b7e1:0x5c6abdd3066db206!8m2!3d40.7240217!4d-73.5408486!16s%2Fg%2F11rwm7gxmg!19sChIJ4bfge2l_wokRBrJtBtO9alw?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "BLINK N BROWS - Threading, Eyelash & Waxing Salon",
+  "desc": "A beauty salon on A Hempstead Turnpike in East Meadow.",
+  "auto": true,
+  "slug": "blink-n-brows-east-meadow"
+ },
+ {
+  "name": "Femina Beauty Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "346 Larkfield Rd, East Northport, NY 11731",
+  "town": "East Northport",
+  "zip": "11731",
+  "county": "Suffolk",
+  "phone": "+16316236211",
+  "website": "https://feminasalons.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Femina+Beauty+Salon/data=!4m7!3m6!1s0x89e825763b8602b7:0x758c1a65fd486e24!8m2!3d40.8696829!4d-73.3227725!16s%2Fg%2F1wnf2201!19sChIJtwKGO3Yl6IkRJG5I_WUajHU?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://feminasalons.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Femina Beauty Salon",
+  "desc": "A beauty salon on Larkfield Road in East Northport.",
+  "auto": true,
+  "slug": "femina-beauty-salon-east-northport"
+ },
+ {
+  "name": "Fair n Glow Threading and Hair Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "10 Meacham Ave, Elmont, NY 11003",
+  "town": "Elmont",
+  "zip": "11003",
+  "county": "Nassau",
+  "phone": "+15163555455",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Fair+n+Glow+Threading+and+Hair+Salon/data=!4m7!3m6!1s0x89c26304a3534e13:0xd92ba9853d4d6a4c!8m2!3d40.7075634!4d-73.6900806!16s%2Fg%2F11gccmx1sn!19sChIJE05TowRjwokRTGpNPYWpK9k?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Fair n Glow Threading and Hair Salon",
+  "desc": "A beauty salon on Meacham Avenue in Elmont.",
+  "auto": true,
+  "slug": "fair-n-glow-threading-and-hair-salon-elmont"
+ },
+ {
+  "name": "Shubh Beauty",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "Inside Walmart, 965 Broadhollow Rd, Farmingdale, NY 11735",
+  "town": "Farmingdale",
+  "zip": "11735",
+  "county": "Nassau",
+  "phone": "+16313960676",
+  "website": "https://shubhbeauty.com/",
+  "temp_closed": false,
+  "located_in": "Republic Plaza",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Shubh+Beauty+-+Farmingdale,+NY+%28Inside+Walmart%29/data=!4m7!3m6!1s0x89e82be7378fd6d3:0x5d9bff83603de8c0!8m2!3d40.7269804!4d-73.4204152!16s%2Fg%2F11q3sd66w3!19sChIJ09aPN-cr6IkRwOg9YIP_m10?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://shubhbeauty.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Shubh Beauty - Farmingdale, NY (Inside Walmart)",
+  "desc": "A beauty salon on Inside Walmart in Farmingdale, inside Republic Plaza.",
+  "auto": true,
+  "slug": "shubh-beauty-farmingdale"
+ },
+ {
+  "name": "Veda Threading & Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "Inside Estelle's, 1600 Broadhollow Rd, Farmingdale, NY 11735",
+  "town": "Farmingdale",
+  "zip": "11735",
+  "county": "Nassau",
+  "phone": "+16312476578",
+  "website": "http://www.vedathreadingsalon.com/",
+  "temp_closed": false,
+  "located_in": "Estelle's Dressy Dresses",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Veda+Threading+%26+Salon/data=!4m7!3m6!1s0x89e82b9e4a61e35b:0xeb795a49a7d8d8fe!8m2!3d40.741136!4d-73.4238167!16s%2Fg%2F11fp37thw_!19sChIJW-NhSp4r6IkR_tjYp0laees?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Veda Threading & Salon",
+  "desc": "A beauty salon on Inside Estelle's in Farmingdale, inside Estelle's Dressy Dresses.",
+  "auto": true,
+  "slug": "veda-threading-salon-farmingdale"
+ },
+ {
+  "name": "Beyond Beauty Threading, Facial, & Waxing studio",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "676 Dogwood Ave, Franklin Square, NY 11010",
+  "town": "Franklin Square",
+  "zip": "11010",
+  "county": "Nassau",
+  "phone": "+15162144041",
+  "website": "https://beyondbeauty676.my.canva.site/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Beyond+Beauty+Threading,+Facial,+%26+Waxing+studio/data=!4m7!3m6!1s0x89c263477517f589:0x3243304c723e6836!8m2!3d40.6890773!4d-73.668475!16s%2Fg%2F11fylzphjr!19sChIJifUXdUdjwokRNmg-ckwwQzI?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Beyond Beauty Threading, Facial, & Waxing studio",
+  "desc": "A beauty salon on Dogwood Avenue in Franklin Square.",
+  "auto": true,
+  "slug": "beyond-beauty-threading-facial-waxing-studio-franklin-square"
+ },
+ {
+  "name": "Threading Station",
+  "cat": "salons",
+  "type": "Eyebrow bar",
+  "address": "630 Old Country Rd, Garden City, NY 11530",
+  "town": "Garden City",
+  "zip": "11530",
+  "county": "Nassau",
+  "phone": "+15162940307",
+  "website": "https://www.threadingstation.com/garden-city-ny",
+  "temp_closed": false,
+  "located_in": "Roosevelt Field",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Threading+Station/data=!4m7!3m6!1s0x89c27d7c3f46eb25:0xd408554d3869735c!8m2!3d40.738775!4d-73.6137545!16s%2Fg%2F11c6lks7p7!19sChIJJetGP3x9wokRXHNpOE1VCNQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://www.threadingstation.com/garden-city-ny",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Threading Station",
+  "desc": "An eyebrow bar on Old Country Road in Garden City, inside Roosevelt Field.",
+  "auto": true,
+  "slug": "threading-station-garden-city"
+ },
+ {
+  "name": "Lux Beauty Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "Moved To, 414 South Broadway, 70 N Broadway, Hicksville, NY 11801",
+  "town": "Hicksville",
+  "zip": "11801",
+  "county": "Nassau",
+  "phone": "+15166054791",
+  "website": "https://mapstel.pw/lux-beauty-salon-hicksville-indian-uhhxqvg",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Lux+Beauty+Salon+Hicksville+%28Indian+%29/data=!4m7!3m6!1s0x89c280f86616a271:0xf8425718524170ee!8m2!3d40.7672365!4d-73.524509!16s%2Fg%2F1pxw7ztbr!19sChIJcaIWZviAwokR7nBBUhhXQvg?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://mapstel.pw/lux-beauty-salon-hicksville-indian-uhhxqvg",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Lux Beauty Salon Hicksville (Indian )",
+  "desc": "A beauty salon on Moved To in Hicksville.",
+  "auto": true,
+  "slug": "lux-beauty-salon-hicksville"
+ },
+ {
+  "name": "Pink Me Up",
   "cat": "salons",
   "type": "Beauty salon",
   "address": "70 N Broadway, Hicksville, NY 11801",
@@ -6181,7 +6767,287 @@
   ],
   "full_name": "Pink Me UP (Indian salon)/Gilma",
   "desc": "A beauty salon on North Broadway in Hicksville.",
-  "slug": "pink-me-up-indian-salon-gilma-hicksville"
+  "auto": true,
+  "slug": "pink-me-up-hicksville"
+ },
+ {
+  "name": "Looks Threading Center",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "1842 E Jericho Tpke, Huntington, NY 11743",
+  "town": "Huntington",
+  "zip": "11743",
+  "county": "Suffolk",
+  "phone": "+16314869494",
+  "website": "http://looksthreading.com/",
+  "temp_closed": false,
+  "located_in": "Dix Super Center",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Looks+Threading+Center/data=!4m7!3m6!1s0x89e82f6686be5697:0x3d9b16cf5eb0a6e9!8m2!3d40.8355692!4d-73.3341779!16s%2Fg%2F11hyg1gg40!19sChIJl1a-hmYv6IkR6aawXs8Wmz0?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Looks Threading Center",
+  "desc": "A beauty salon on East Jericho Turnpike in Huntington, inside Dix Super Center.",
+  "auto": true,
+  "slug": "looks-threading-center-huntington"
+ },
+ {
+  "name": "OM Threading & Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "1916 Jericho Tpke, Huntington, NY 11743",
+  "town": "Huntington",
+  "zip": "11743",
+  "county": "Suffolk",
+  "phone": "+15167770797",
+  "website": "http://www.omthreadingsalon.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/OM+Threading+%26+Salon/data=!4m7!3m6!1s0x89e82ff0f4125b35:0x8869a0e5c12c62b9!8m2!3d40.8373999!4d-73.3323708!16s%2Fg%2F11l8ggq4ct!19sChIJNVsS9PAv6IkRuWIsweWgaYg?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "OM Threading & Salon",
+  "desc": "A beauty salon on Jericho Turnpike in Huntington.",
+  "auto": true,
+  "slug": "om-threading-salon-huntington"
+ },
+ {
+  "name": "Femina Beauty Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "801 E Jericho Tpke, Huntington Station, NY 11746",
+  "town": "Huntington Station",
+  "zip": "11746",
+  "county": "Suffolk",
+  "phone": "+16313850900",
+  "website": "https://feminasalons.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Femina+Beauty+Salon+Inc/data=!4m7!3m6!1s0x89e828d0137a829f:0x15ddf4abfdf18cab!8m2!3d40.8350104!4d-73.3821789!16s%2Fg%2F1td5y5n0!19sChIJn4J6E9Ao6IkRq4zx_av03RU?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://feminasalons.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Femina Beauty Salon Inc",
+  "desc": "A beauty salon on East Jericho Turnpike in Huntington Station.",
+  "auto": true,
+  "slug": "femina-beauty-salon-huntington-station"
+ },
+ {
+  "name": "Threading Station",
+  "cat": "salons",
+  "type": "Eyebrow bar",
+  "address": "160 Walt Whitman Rd, Huntington Station, NY 11746",
+  "town": "Huntington Station",
+  "zip": "11746",
+  "county": "Suffolk",
+  "phone": "+16314270205",
+  "website": "http://threadingstation.com/huntington-ny",
+  "temp_closed": false,
+  "located_in": "Walt Whitman Shops",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Threading+Station/data=!4m7!3m6!1s0x89e829d47ecfce9f:0x6b5bd614bbb2318e!8m2!3d40.8227586!4d-73.4097335!16s%2Fg%2F11n73970ty!19sChIJn87PftQp6IkRjjGyuxTWW2s?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Threading Station",
+  "desc": "An eyebrow bar on Walt Whitman Road in Huntington Station, inside Walt Whitman Shops.",
+  "auto": true,
+  "slug": "threading-station-huntington-station"
+ },
+ {
+  "name": "Fantastic threading brows",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "99 Broadway, Lynbrook, NY 11563",
+  "town": "Lynbrook",
+  "zip": "11563",
+  "county": "Nassau",
+  "phone": "+15167608822",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Fantastic+threading+brows/data=!4m7!3m6!1s0x89c2653c1620c147:0xf16b8e62e9e47275!8m2!3d40.655049!4d-73.6748785!16s%2Fg%2F11k3qfn9hc!19sChIJR8EgFjxlwokRdXLk6WKOa_E?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Fantastic threading brows",
+  "desc": "A beauty salon on Broadway in Lynbrook.",
+  "auto": true,
+  "slug": "fantastic-threading-brows-lynbrook"
+ },
+ {
+  "name": "Anaiza Threading Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "701 Walt Whitman Rd Unit C, Melville, NY 11747",
+  "town": "Melville",
+  "zip": "11747",
+  "county": "Suffolk",
+  "phone": "+15163610367",
+  "website": "https://booksy.com/en-us/1553608_anaiza-beauty-spa_brows-lashes_30610_melville?do=invite&_branch_match_id=1482857095363235170&utm_medium=profile_share_from_profile&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVr6qwLHYOC3E0i0iyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUANGtJ0TwAAAA%3D",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Anaiza+Threading+Salon/data=!4m7!3m6!1s0x89e8298a066f5a89:0xbcd6b89b26ba00f8!8m2!3d40.8052917!4d-73.4110687!16s%2Fg%2F11x8rxz_j_!19sChIJiVpvBoop6IkR-AC6Jpu41rw?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://booksy.com/en-us/1553608_anaiza-beauty-spa_brows-lashes_30610_melville?do=invite&_branch_match_id=1482857095363235170&utm_medium=profile_share_from_profile&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVr6qwLHYOC3E0i0iyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUANGtJ0TwAAAA%3D",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Anaiza Threading Salon",
+  "desc": "A beauty salon on Walt Whitman Road in Melville.",
+  "auto": true,
+  "slug": "anaiza-threading-salon-melville"
+ },
+ {
+  "name": "Femina Salon",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "1310 Middle Country Rd #8, Selden, NY 11784",
+  "town": "Selden",
+  "zip": "11784",
+  "county": "Suffolk",
+  "phone": "+16316961725",
+  "website": "https://feminasalons.com/",
+  "temp_closed": false,
+  "located_in": "1310 Middle Country Plaza",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Femina+Salon/data=!4m7!3m6!1s0x89e8470eaec4b5d9:0x768cbe5f0f6c2b09!8m2!3d40.8619348!4d-73.0579883!16s%2Fg%2F1tfh5pwh!19sChIJ2bXErg5H6IkRCStsD1--jHY?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://feminasalons.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Femina Salon",
+  "desc": "A beauty salon on Middle Country Road in Selden, inside 1310 Middle Country Plaza.",
+  "auto": true,
+  "slug": "femina-salon-selden"
+ },
+ {
+  "name": "Manisha's Eyebrow Threading",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "127B E Main St, Smithtown, NY 11787",
+  "town": "Smithtown",
+  "zip": "11787",
+  "county": "Suffolk",
+  "phone": "+16314867777",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Manisha%27s+Eyebrow+Threading/data=!4m7!3m6!1s0x89e82ff2751a25e7:0xfcf78f995caf7983!8m2!3d40.8561782!4d-73.1895411!16s%2Fg%2F11gmywb400!19sChIJ5yUadfIv6IkRg3mvXJmP9_w?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Manisha's Eyebrow Threading",
+  "desc": "A beauty salon on East Main Street in Smithtown.",
+  "auto": true,
+  "slug": "manisha-s-eyebrow-threading-smithtown"
+ },
+ {
+  "name": "Asmas Threading Place",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "Sunrise Hwy, Valley Stream, NY 11581",
+  "town": "Valley Stream",
+  "zip": "11581",
+  "county": "Nassau",
+  "phone": "+15168251650",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "Green Acres",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Asmas+Threading+Place/data=!4m7!3m6!1s0x89c2646bf24d3391:0x3aaece8059dcd29e!8m2!3d40.66318!4d-73.718955!16s%2Fg%2F11_j_lmvh!19sChIJkTNN8mtkwokRntLcWYDOrjo?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Asmas Threading Place",
+  "desc": "A beauty salon on Sunrise Highway in Valley Stream, inside Green Acres.",
+  "auto": true,
+  "slug": "asmas-threading-place-valley-stream"
+ },
+ {
+  "name": "Looks Threading & Hair Salon",
+  "cat": "salons",
+  "type": "Eyebrow bar",
+  "address": "822 Carman Ave, Westbury, NY 11590",
+  "town": "Westbury",
+  "zip": "11590",
+  "county": "Nassau",
+  "phone": "+15162439002",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Looks+Threading+%26+Hair+Salon/data=!4m7!3m6!1s0x89c281cffa4a1455:0xc952dd2b4d7e697c!8m2!3d40.7471922!4d-73.551844!16s%2Fg%2F11wqjk7bf5!19sChIJVRRK-s-BwokRfGl-TSvdUsk?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Looks Threading & Hair Salon",
+  "desc": "An eyebrow bar on Carman Avenue in Westbury.",
+  "auto": true,
+  "slug": "looks-threading-hair-salon-westbury"
+ },
+ {
+  "name": "Threading Heaven",
+  "cat": "salons",
+  "type": "Beauty salon",
+  "address": "161 Post Ave, Westbury, NY 11590",
+  "town": "Westbury",
+  "zip": "11590",
+  "county": "Nassau",
+  "phone": "+15166908183",
+  "website": "http://www.threadingheaven.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Threading+Heaven/data=!4m7!3m6!1s0x89c2874ab5245237:0xa6e3831794321357!8m2!3d40.754358!4d-73.5879915!16s%2Fg%2F11yshvx9yn!19sChIJN1IktUqHwokRVxMylBeD46Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Threading Heaven",
+  "desc": "A beauty salon on Post Avenue in Westbury.",
+  "auto": true,
+  "slug": "threading-heaven-westbury"
  },
  {
   "name": "Ajwa Sweets & Restaurant",
@@ -6204,6 +7070,7 @@
   ],
   "full_name": "Ajwa Sweets & Restaurant",
   "desc": "A sweet shop on Elmont Road in Elmont.",
+  "auto": true,
   "slug": "ajwa-sweets-restaurant-elmont"
  },
  {
@@ -6227,6 +7094,7 @@
   ],
   "full_name": "Bengali Sweet Shop",
   "desc": "A sweet shop on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "bengali-sweet-shop-hicksville"
  },
  {
@@ -6250,6 +7118,7 @@
   ],
   "full_name": "Gwalia Sweets & Restaurant",
   "desc": "A sweet shop on West Marie Street in Hicksville.",
+  "auto": true,
   "slug": "gwalia-sweets-restaurant-hicksville"
  },
  {
@@ -6273,7 +7142,32 @@
   ],
   "full_name": "Rajbhog Café",
   "desc": "A sweet shop on South Broadway in Hicksville.",
+  "auto": true,
   "slug": "rajbhog-caf-hicksville"
+ },
+ {
+  "name": "Ali Baba Sweets & Restaurant",
+  "cat": "sweets",
+  "type": "Sweet shop",
+  "address": "16 Central Ct, Valley Stream, NY 11580",
+  "town": "Valley Stream",
+  "zip": "11580",
+  "county": "Nassau",
+  "phone": "+15163410711",
+  "website": "",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Ali+Baba+Sweets+%26+Restaurant/data=!4m7!3m6!1s0x89c263b66716490b:0x3d69e4bb2785f7aa!8m2!3d40.6819839!4d-73.7118698!16s%2Fg%2F11zk53955k!19sChIJC0kWZ7ZjwokRqveFJ7vkaT0?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Ali Baba Sweets & Restaurant",
+  "desc": "A sweet shop on Central Court in Valley Stream.",
+  "auto": true,
+  "slug": "ali-baba-sweets-restaurant-valley-stream"
  },
  {
   "name": "Saini Sweets & Caterers",
@@ -6296,6 +7190,7 @@
   ],
   "full_name": "Saini Sweets & Caterers",
   "desc": "An Indian sweets shop on Central Court in Valley Stream.",
+  "auto": true,
   "slug": "saini-sweets-caterers-valley-stream"
  },
  {
@@ -6324,6 +7219,7 @@
   ],
   "full_name": "New York Kali Mandir",
   "desc": "A Hindu temple on Seaman Avenue in Baldwin. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "new-york-kali-mandir-baldwin"
  },
  {
@@ -6347,6 +7243,7 @@
   ],
   "full_name": "Hindu Temple of Long Island",
   "desc": "A Hindu temple on South Oyster Bay Road in Bethpage. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "hindu-temple-of-long-island-bethpage"
  },
  {
@@ -6370,6 +7267,7 @@
   ],
   "full_name": "Hindu Temple and Cultural Center",
   "desc": "A Hindu temple on Middle Country Road in Centereach. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "hindu-temple-and-cultural-center-centereach"
  },
  {
@@ -6398,6 +7296,7 @@
   ],
   "full_name": "Bhavani Shankara Mandir",
   "desc": "A Hindu temple on East Suffolk Avenue in Central Islip. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "bhavani-shankara-mandir-central-islip"
  },
  {
@@ -6421,10 +7320,11 @@
   ],
   "full_name": "Shiv Uma Ganesh Mandir",
   "desc": "A Hindu temple on Commercial Boulevard in Central Islip. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "shiv-uma-ganesh-mandir-central-islip"
  },
  {
-  "name": "Shri Paramhans Advait Mat (Paawan Dham)",
+  "name": "Paawan Dham (Shri Paramhans Advait Mat)",
   "cat": "temples",
   "type": "Hindu temple",
   "address": "469 Deer Pk Rd, Dix Hills, NY 11746",
@@ -6444,7 +7344,8 @@
   ],
   "full_name": "Shri Paramhans Advait Mat (Paawan Dham)",
   "desc": "A Hindu temple on Deer Pk Road in Dix Hills. Check the temple's own site for darshan hours and festival programs.",
-  "slug": "shri-paramhans-advait-mat-paawan-dham-dix-hills"
+  "auto": true,
+  "slug": "paawan-dham-shri-paramhans-advait-mat-dix-hills"
  },
  {
   "name": "Hoffman Hindu temple",
@@ -6467,6 +7368,7 @@
   ],
   "full_name": "Hoffman Hindu temple",
   "desc": "A Hindu temple on Delmar Avenue in Franklin Square. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "hoffman-hindu-temple-franklin-square"
  },
  {
@@ -6490,6 +7392,7 @@
   ],
   "full_name": "ISKCON Long Island Temple",
   "desc": "A Hindu temple on South Ocean Avenue in Freeport. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "iskcon-long-island-temple-freeport"
  },
  {
@@ -6518,6 +7421,7 @@
   ],
   "full_name": "Vedic Heritage",
   "desc": "A Hindu temple on Jerusalem Avenue in Hempstead. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "vedic-heritage-hempstead"
  },
  {
@@ -6541,6 +7445,7 @@
   ],
   "full_name": "Arya Samaj Long Island",
   "desc": "An arya Samaj on Jerusalem Avenue in Hicksville. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "arya-samaj-long-island-hicksville"
  },
  {
@@ -6564,7 +7469,37 @@
   ],
   "full_name": "AsaMai Hindu Temple & Sai Darbar",
   "desc": "A Hindu temple on East Barclay Street in Hicksville. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "asamai-hindu-temple-sai-darbar-hicksville"
+ },
+ {
+  "name": "Jain Samaj of Long Island",
+  "cat": "temples",
+  "type": "Jain temple",
+  "address": "158 Plainview Rd, Hicksville, NY 11801",
+  "town": "Hicksville",
+  "zip": "11801",
+  "county": "Nassau",
+  "phone": "+15165975791",
+  "website": "https://jainsamajofli.org/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Jain+Samaj+of+Long+Island/data=!4m7!3m6!1s0x89c281779027745f:0xc6e7ef7a7e9c350c!8m2!3d40.7686833!4d-73.5166407!16s%2Fg%2F11fn49tcc_!19sChIJX3QnkHeBwokRDDWcfnrv58Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://jainsamajofli.org/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Jain Samaj of Long Island",
+  "desc": "A Jain temple on Plainview Road in Hicksville. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
+  "slug": "jain-samaj-of-long-island-hicksville"
  },
  {
   "name": "Shri Ram Sharnam",
@@ -6587,6 +7522,7 @@
   ],
   "full_name": "Shri Ram Sharnam",
   "desc": "A Hindu temple on Burke Avenue in Jericho. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "shri-ram-sharnam-jericho"
  },
  {
@@ -6610,6 +7546,7 @@
   ],
   "full_name": "BAPS Shri Swaminarayan Mandir, Long Island",
   "desc": "A Hindu temple on Deshon Drive in Melville. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "baps-shri-swaminarayan-mandir-long-island-melville"
  },
  {
@@ -6633,6 +7570,7 @@
   ],
   "full_name": "Shree Swaminarayan Hindu Temple ISSO",
   "desc": "A Hindu temple on Marcus Avenue in New Hyde Park. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "shree-swaminarayan-hindu-temple-isso-new-hyde-park"
  },
  {
@@ -6656,6 +7594,7 @@
   ],
   "full_name": "Shri Saneeswara Temple",
   "desc": "A Hindu temple on Hillside Avenue in New Hyde Park. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "shri-saneeswara-temple-new-hyde-park"
  },
  {
@@ -6684,6 +7623,7 @@
   ],
   "full_name": "Vaishnav Temple of New York",
   "desc": "A Hindu temple on Lakeville Road in New Hyde Park. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "vaishnav-temple-of-new-york-new-hyde-park"
  },
  {
@@ -6707,6 +7647,7 @@
   ],
   "full_name": "Sai Mandir",
   "desc": "A Hindu temple on Southern Parkway in Plainview. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "sai-mandir-plainview"
  },
  {
@@ -6730,6 +7671,7 @@
   ],
   "full_name": "SAI MANDIR USA NORI Foundation",
   "desc": "A Hindu temple on Southern Parkway in Plainview. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
   "slug": "sai-mandir-usa-nori-foundation-plainview"
  },
  {
@@ -6758,6 +7700,7 @@
   ],
   "full_name": "Haram Travel",
   "desc": "A travel agency on North Waldinger Street in Valley Stream.",
+  "auto": true,
   "slug": "haram-travel-valley-stream"
  },
  {
@@ -6781,6 +7724,7 @@
   ],
   "full_name": "Dix Hills Nikah, Wedding & Event Center",
   "desc": "A wedding venue on Deer Pk Road in Dix Hills. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "dix-hills-nikah-wedding-event-center-dix-hills"
  },
  {
@@ -6809,6 +7753,7 @@
   ],
   "full_name": "Sand Castle",
   "desc": "A wedding venue on Franklin Avenue in Franklin Square. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "sand-castle-franklin-square"
  },
  {
@@ -6837,6 +7782,7 @@
   ],
   "full_name": "Metropolitan Caterers",
   "desc": "A wedding venue on Pratt Boulevard in Glen Cove. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "metropolitan-caterers-glen-cove"
  },
  {
@@ -6865,6 +7811,7 @@
   ],
   "full_name": "Leonard's",
   "desc": "A banquet hall on Northern Boulevard in Great Neck. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "leonard-s-great-neck"
  },
  {
@@ -6888,6 +7835,7 @@
   ],
   "full_name": "Tikka / De Saffron Banquet Hall",
   "desc": "A banquet hall on North Broadway in Hicksville, inside Broadway Commons. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "tikka-de-saffron-banquet-hall-hicksville"
  },
  {
@@ -6911,6 +7859,7 @@
   ],
   "full_name": "The Cotillion",
   "desc": "An Indian restaurant on Jericho Turnpike in Jericho. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "the-cotillion-jericho"
  },
  {
@@ -6939,6 +7888,7 @@
   ],
   "full_name": "Windows On The Lake",
   "desc": "A wedding venue on Lake Shore Road in Lake Ronkonkoma. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "windows-on-the-lake-lake-ronkonkoma"
  },
  {
@@ -6967,6 +7917,7 @@
   ],
   "full_name": "Aura Ballroom",
   "desc": "A banquet hall on Sunnyside Boulevard in Plainview, inside Holiday Inn Plainview-Long Island by IHG. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "aura-ballroom-plainview"
  },
  {
@@ -6995,6 +7946,7 @@
   ],
   "full_name": "Watermill Caterers",
   "desc": "A wedding venue on Smithtown Bypass in Smithtown. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "watermill-caterers-smithtown"
  },
  {
@@ -7023,6 +7975,7 @@
   ],
   "full_name": "Crest Hollow Country Club",
   "desc": "An event venue on Jericho Turnpike in Woodbury. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
   "slug": "crest-hollow-country-club-woodbury"
  }
 ]
