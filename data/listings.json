@@ -213,11 +213,6 @@
     "url": "https://www.google.com/maps/place/Samaira/data=!4m7!3m6!1s0x89c280fc1c1d77f9:0x694a2a0fdd292c07!8m2!3d40.7630713!4d-73.5178055!16s%2Fg%2F11h132h5v!19sChIJ-XcdHPyAwokRBywp3Q8qSmk?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
     "kind": "Google Maps listing",
     "checked": "2026-11-01"
-   },
-   {
-    "url": "https://samairabridal.com/",
-    "kind": "own website",
-    "checked": "2026-11-01"
    }
   ],
   "full_name": "Samaira",
@@ -279,7 +274,7 @@
   "slug": "desi-fusion-boutique-huntington"
  },
  {
-  "name": "Colors of east imports from india",
+  "name": "Colors of East",
   "cat": "clothing",
   "type": "Clothing store",
   "address": "146 Main St, Northport, NY 11768",
@@ -300,7 +295,7 @@
   "full_name": "Colors of east imports from india",
   "desc": "A clothing store on Main Street in Northport.",
   "auto": true,
-  "slug": "colors-of-east-imports-from-india-northport"
+  "slug": "colors-of-east-northport"
  },
  {
   "name": "Riwaj Collections",
@@ -422,6 +417,54 @@
   "slug": "aapi-of-queens-long-island-aapiqli-albertson"
  },
  {
+  "name": "The Kerala Center",
+  "cat": "community",
+  "type": "Community organization",
+  "address": "1824 Fairfax St, Elmont, NY 11003",
+  "town": "Elmont",
+  "zip": "11003",
+  "county": "Nassau",
+  "phone": "+15163582000",
+  "website": "http://keralacenterny.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/The+Kerala+Center/data=!4m7!3m6!1s0x89c263af145c4811:0x3e4abe15c5faad4e!8m2!3d40.7073618!4d-73.7082296!16s%2Fg%2F1tj92gn7!19sChIJEUhcFK9jwokRTq36xRW-Sj4?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "The Kerala Center",
+  "desc": "A community organization on Fairfax Street in Elmont.",
+  "auto": true,
+  "slug": "the-kerala-center-elmont"
+ },
+ {
+  "name": "Indian Dental Association (USA)",
+  "cat": "community",
+  "type": "Community organization",
+  "address": "140 Tulip Ave, Floral Park, NY 11001",
+  "town": "Floral Park",
+  "zip": "11001",
+  "county": "Nassau",
+  "phone": "+15163458261",
+  "website": "http://ida-usa.org/",
+  "temp_closed": false,
+  "located_in": "Prestige Dental Care",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Indian+Dental+Association+%28USA%29+Inc/data=!4m7!3m6!1s0x89c26257709f496f:0x2ab8c03affe67549!8m2!3d40.7244056!4d-73.7041303!16s%2Fg%2F11clvc14dv!19sChIJb0mfcFdiwokRSXXm_zrAuCo?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Indian Dental Association (USA) Inc",
+  "desc": "A community organization on Tulip Avenue in Floral Park, inside Prestige Dental Care.",
+  "auto": true,
+  "slug": "indian-dental-association-usa-floral-park"
+ },
+ {
   "name": "American Punjabi Society",
   "cat": "community",
   "type": "Community organization",
@@ -495,7 +538,7 @@
   "slug": "sahas-hicksville"
  },
  {
-  "name": "Telugu literary and cultural association",
+  "name": "Telugu Literary and Cultural Association",
   "cat": "community",
   "type": "Community organization",
   "address": "1 N Village Green, Levittown, NY 11756",
@@ -683,6 +726,35 @@
   "slug": "elegantize-productions-new-hyde-park"
  },
  {
+  "name": "Desi DJ Azad",
+  "cat": "dj-dhol",
+  "type": "DJ service",
+  "address": "Sycamore Ave, Bohemia, NY 11716",
+  "town": "Bohemia",
+  "zip": "11716",
+  "county": "Suffolk",
+  "phone": "+15163989584",
+  "website": "https://www.djazad.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Desi+DJ+Azad/data=!4m7!3m6!1s0x89e8366f3c9be36d:0x213bfc263ab5221e!8m2!3d40.7536316!4d-73.1196034!16s%2Fg%2F1tdpspv1!19sChIJbeObPG826IkRHiK1Oib8OyE?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   },
+   {
+    "url": "https://www.djazad.com/",
+    "kind": "own website",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Desi DJ Azad",
+  "desc": "A dJ service on Sycamore Avenue in Bohemia. Ask about sangeet and baraat packages when you call.",
+  "auto": true,
+  "slug": "desi-dj-azad-bohemia"
+ },
+ {
   "name": "DJLucky",
   "cat": "dj-dhol",
   "type": "DJ service",
@@ -736,9 +808,9 @@
   "slug": "dna-events-farmingdale"
  },
  {
-  "name": "Caribbean dj, West Indian dj, Caribbean dj, Wedding dj",
+  "name": "DJ Nate",
   "cat": "dj-dhol",
-  "type": "DJ service",
+  "type": "Guyanese and Caribbean DJ",
   "address": "2 Keats Pl, Hicksville, NY 11801",
   "town": "Hicksville",
   "zip": "11801",
@@ -755,12 +827,12 @@
    }
   ],
   "full_name": "Caribbean dj, West Indian dj, Caribbean dj, Wedding dj",
-  "desc": "A dJ service on Keats Place in Hicksville. Ask about sangeet and baraat packages when you call.",
+  "desc": "A Guyanese and Caribbean DJ on Keats Place in Hicksville. Ask about sangeet and baraat packages when you call.",
   "auto": true,
-  "slug": "caribbean-dj-west-indian-dj-caribbean-dj-wedding-dj-hicksville"
+  "slug": "dj-nate-hicksville"
  },
  {
-  "name": "Superior Vibes Entertainment, Guyanese DJ, Caribbean DJ, West Indian DJ, Open Format DJ",
+  "name": "Superior Vibes Entertainment",
   "cat": "dj-dhol",
   "type": "DJ service",
   "address": "230 31st St, Lindenhurst, NY 11757",
@@ -786,7 +858,7 @@
   "full_name": "Superior Vibes Entertainment, Guyanese DJ, Caribbean DJ, West Indian DJ, Open Format DJ",
   "desc": "A dJ service in Lindenhurst. Ask about sangeet and baraat packages when you call.",
   "auto": true,
-  "slug": "superior-vibes-entertainment-guyanese-dj-caribbean-dj-west-indian-dj-open-format-dj-lindenhurst"
+  "slug": "superior-vibes-entertainment-lindenhurst"
  },
  {
   "name": "Musica Entertainment DJ Services",
@@ -1807,7 +1879,7 @@
   "cat": "gurdwaras",
   "type": "Gurdwara",
   "address": "2000 Hillside Ave., North New Hyde Park, NY 11040",
-  "town": "North New Hyde Park",
+  "town": "New Hyde Park",
   "zip": "11040",
   "county": "Nassau",
   "phone": "+15162706197",
@@ -1822,9 +1894,9 @@
    }
   ],
   "full_name": "Gurdwara Guru Tegh Bahadur Sahib Inc",
-  "desc": "A gurdwara on Hillside Avenue in North New Hyde Park. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
+  "desc": "A gurdwara on Hillside Avenue in New Hyde Park. Gurdwaras welcome visitors of every faith; cover your head and remove your shoes inside.",
   "auto": true,
-  "slug": "gurdwara-guru-tegh-bahadur-sahib-north-new-hyde-park"
+  "slug": "gurdwara-guru-tegh-bahadur-sahib-new-hyde-park"
  },
  {
   "name": "Guru Gobind Singh Sikh Center",
@@ -2130,7 +2202,7 @@
   "slug": "viral-s-henna-levittown"
  },
  {
-  "name": "Henna by sami",
+  "name": "Henna by Sami",
   "cat": "mehndi",
   "type": "Mehndi designer",
   "address": "130 Park Ave, New Hyde Park, NY 11040",
@@ -2178,7 +2250,7 @@
   "slug": "jpbeautymehendi-new-hyde-park"
  },
  {
-  "name": "Imli juni...",
+  "name": "Imli Juni",
   "cat": "mehndi",
   "type": "Mehndi designer",
   "address": "Meyer Ave, Valley Stream, NY 11580",
@@ -2788,7 +2860,7 @@
   "cat": "mosques",
   "type": "Mosque",
   "address": "515 Mount Sinai-Coram Rd, Mt Sinai, NY 11766",
-  "town": "Mt Sinai",
+  "town": "Mount Sinai",
   "zip": "11766",
   "county": "Suffolk",
   "phone": "+16315096509",
@@ -2803,9 +2875,9 @@
    }
   ],
   "full_name": "Mount Sinai Muslim Center",
-  "desc": "A mosque on Mount Sinai-Coram Road in Mt Sinai. Check the mosque's own site or call for prayer and Jumu'ah times.",
+  "desc": "A mosque on Mount Sinai-Coram Road in Mount Sinai. Check the mosque's own site or call for prayer and Jumu'ah times.",
   "auto": true,
-  "slug": "mount-sinai-muslim-center-mt-sinai"
+  "slug": "mount-sinai-muslim-center-mount-sinai"
  },
  {
   "name": "Hillside Islamic Center",
@@ -3222,35 +3294,6 @@
   "slug": "modern-wedding-photography-long-island"
  },
  {
-  "name": "JS Visions Photography and Cinematography",
-  "cat": "photo-video",
-  "type": "Wedding photographer",
-  "address": "647 Franklin Ave Ste LL2, Garden City, NY 11530",
-  "town": "Garden City",
-  "zip": "11530",
-  "county": "Nassau",
-  "phone": "+15162803600",
-  "website": "https://jsvisionsphotoandvideo.com/",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/JS+Visions+Photography+and+Cinematography/data=!4m7!3m6!1s0x89c265dd352c3cf3:0xa438412362367266!8m2!3d40.724661!4d-73.633543!16s%2Fg%2F12hpzm6k4!19sChIJ8zwsNd1lwokRZnI2YiNBOKQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   },
-   {
-    "url": "https://jsvisionsphotoandvideo.com/",
-    "kind": "own website",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "JS Visions Photography and Cinematography",
-  "desc": "A wedding photographer on Franklin Avenue in Garden City.",
-  "auto": true,
-  "slug": "js-visions-photography-and-cinematography-garden-city"
- },
- {
   "name": "Ajit Singh Photography",
   "cat": "photo-video",
   "type": "Photography studio",
@@ -3278,35 +3321,6 @@
   "desc": "A photography studio on North Newbridge Road in Hicksville.",
   "auto": true,
   "slug": "ajit-singh-photography-hicksville"
- },
- {
-  "name": "Lotus Wedding Photography",
-  "cat": "photo-video",
-  "type": "Wedding photographer",
-  "address": "25 Melville Park Rd #74, Melville, NY 11747",
-  "town": "Melville",
-  "zip": "11747",
-  "county": "Suffolk",
-  "phone": "+16314123947",
-  "website": "https://www.lotusweddings.net/",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Lotus+Wedding+Photography/data=!4m7!3m6!1s0x89e9d49f781ba239:0xff6b30bcc3643a59!8m2!3d40.7767832!4d-73.4174686!16s%2Fg%2F11btz1d_fx!19sChIJOaIbeJ_U6YkRWTpkw7wwa_8?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   },
-   {
-    "url": "https://www.lotusweddings.net/",
-    "kind": "own website",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Lotus Wedding Photography",
-  "desc": "A wedding photographer on Melville Park Road in Melville.",
-  "auto": true,
-  "slug": "lotus-wedding-photography-melville"
  },
  {
   "name": "Kaul Photography",
@@ -3338,60 +3352,7 @@
   "slug": "kaul-photography-westbury"
  },
  {
-  "name": "Long Island Wedding & Event Planners Boutique",
-  "cat": "planners",
-  "type": "Wedding planner",
-  "address": "6270 Northern Blvd, East Norwich, NY 11732",
-  "town": "East Norwich",
-  "zip": "11732",
-  "county": "Nassau",
-  "phone": "+15168020612",
-  "website": "https://liweddingplanners.com/",
-  "temp_closed": false,
-  "located_in": "JoVon Photography & Video Inc",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/LONG+ISLAND+WEDDING+%26+EVENT+PLANNERS+BOUTIQUE/data=!4m7!3m6!1s0x89c283a27092bcc9:0xd74487782c0c0844!8m2!3d40.841805!4d-73.5353623!16s%2Fg%2F1tz96p24!19sChIJybyScKKDwokRRAgMLHiHRNc?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   },
-   {
-    "url": "https://liweddingplanners.com/",
-    "kind": "own website",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "LONG ISLAND WEDDING & EVENT PLANNERS BOUTIQUE",
-  "desc": "A wedding planner on Northern Boulevard in East Norwich, inside JoVon Photography & Video Inc.",
-  "auto": true,
-  "slug": "long-island-wedding-event-planners-boutique-east-norwich"
- },
- {
-  "name": "Glamorous Event Planners & Productions",
-  "cat": "planners",
-  "type": "Event planner",
-  "address": "260A W Old Country Rd, Hicksville, NY 11801",
-  "town": "Hicksville",
-  "zip": "11801",
-  "county": "Nassau",
-  "phone": "+15169332788",
-  "website": "https://glamorouseventplanners.com/?utm_source=google&utm_medium=gmb&utm_campaign=glamorouseventplanners",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Glamorous+Event+Planners+%26+Productions/data=!4m7!3m6!1s0x89c280e665c6d3df:0x31744fa965bc430!8m2!3d40.7612319!4d-73.5308339!16s%2Fg%2F12mkw9gts!19sChIJ39PGZeaAwokRMMRblvpEFwM?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Glamorous Event Planners & Productions",
-  "desc": "An event planner on West Old Country Road in Hicksville.",
-  "auto": true,
-  "slug": "glamorous-event-planners-productions-hicksville"
- },
- {
-  "name": "Chandai Events Luxury & Destination South Asian Wedding Event Planner",
+  "name": "Chandai Events",
   "cat": "planners",
   "type": "Wedding planner",
   "address": "1314 Jericho Tpke, New Hyde Park, NY 11040",
@@ -3412,7 +3373,7 @@
   "full_name": "Chandai Events Luxury & Destination South Asian Wedding Event Planner",
   "desc": "A wedding planner on Jericho Turnpike in New Hyde Park.",
   "auto": true,
-  "slug": "chandai-events-luxury-destination-south-asian-wedding-event-planner-new-hyde-park"
+  "slug": "chandai-events-new-hyde-park"
  },
  {
   "name": "Ruban Events",
@@ -3442,30 +3403,6 @@
   "desc": "An event planner on Marcus Avenue in New Hyde Park.",
   "auto": true,
   "slug": "ruban-events-new-hyde-park"
- },
- {
-  "name": "NY Event Planner & Design",
-  "cat": "planners",
-  "type": "Event planner",
-  "address": "65 W Merrick Rd, Valley Stream, NY 11580",
-  "town": "Valley Stream",
-  "zip": "11580",
-  "county": "Nassau",
-  "phone": "+15166527921",
-  "website": "",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/NY+Event+Planner+%26+Design+Inc/data=!4m7!3m6!1s0x89c26487fbf7526f:0x9e4c3cecadad0dd1!8m2!3d40.6655118!4d-73.7002923!16s%2Fg%2F1q6bkbk4b!19sChIJb1L3-4dkwokR0Q2trew8TJ4?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "NY Event Planner & Design Inc",
-  "desc": "An event planner on West Merrick Road in Valley Stream.",
-  "auto": true,
-  "slug": "ny-event-planner-design-valley-stream"
  },
  {
   "name": "Pandit Harish Sharma",
@@ -4024,6 +3961,31 @@
   "auto": true,
   "cuisine": "Indian",
   "slug": "spice-gardens-bar-and-grill-east-meadow"
+ },
+ {
+  "name": "Taj Crown of India",
+  "cat": "restaurants",
+  "type": "Indian restaurant",
+  "address": "10 Woods Corner Rd, Setauket- East Setauket, NY 11733",
+  "town": "East Setauket",
+  "zip": "11733",
+  "county": "Suffolk",
+  "phone": "+16318252345",
+  "website": "https://www.tajcrownofindia.com/",
+  "temp_closed": true,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Taj+Crown+of+India/data=!4m7!3m6!1s0x89e83f2e3f1c5b6b:0xd7f310d37918c8bc!8m2!3d40.9266816!4d-73.1183153!16s%2Fg%2F11t4_kdr56!19sChIJa1scPy4_6IkRvMgYedMQ89c?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Taj Crown of India",
+  "desc": "An Indian restaurant on Woods Corner Road in East Setauket.",
+  "auto": true,
+  "cuisine": "Indian",
+  "slug": "taj-crown-of-india-east-setauket"
  },
  {
   "name": "Chandni Restaurant",
@@ -5143,31 +5105,6 @@
   "slug": "vintage-mirchi-hicksville"
  },
  {
-  "name": "Jassi's Fine Indian Cuisine",
-  "cat": "restaurants",
-  "type": "Indian restaurant",
-  "address": "271-11 Union Tpke, Hillside Manor, NY 11040",
-  "town": "Hillside Manor",
-  "zip": "11040",
-  "county": "Nassau",
-  "phone": "+17183478400",
-  "website": "http://jassisgrill.com/",
-  "temp_closed": false,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Jassi%27s+Fine+Indian+Cuisine/data=!4m7!3m6!1s0x89c2627e4d31b567:0xdeb1a70c260e1a16!8m2!3d40.7519488!4d-73.7030449!16s%2Fg%2F11y81v4cf!19sChIJZ7UxTX5iwokRFhoOJgynsd4?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Jassi's Fine Indian Cuisine",
-  "desc": "An Indian restaurant on Union Turnpike in Hillside Manor.",
-  "auto": true,
-  "cuisine": "Indian",
-  "slug": "jassi-s-fine-indian-cuisine-hillside-manor"
- },
- {
   "name": "Bombay Grill of Huntington",
   "cat": "restaurants",
   "type": "Indian restaurant",
@@ -5707,6 +5644,31 @@
   "slug": "curry-days-new-hyde-park"
  },
  {
+  "name": "Jassi's Fine Indian Cuisine",
+  "cat": "restaurants",
+  "type": "Indian restaurant",
+  "address": "271-11 Union Tpke, Hillside Manor, NY 11040",
+  "town": "New Hyde Park",
+  "zip": "11040",
+  "county": "Nassau",
+  "phone": "+17183478400",
+  "website": "http://jassisgrill.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Jassi%27s+Fine+Indian+Cuisine/data=!4m7!3m6!1s0x89c2627e4d31b567:0xdeb1a70c260e1a16!8m2!3d40.7519488!4d-73.7030449!16s%2Fg%2F11y81v4cf!19sChIJZ7UxTX5iwokRFhoOJgynsd4?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Jassi's Fine Indian Cuisine",
+  "desc": "An Indian restaurant on Union Turnpike in New Hyde Park.",
+  "auto": true,
+  "cuisine": "Indian",
+  "slug": "jassi-s-fine-indian-cuisine-new-hyde-park"
+ },
+ {
   "name": "Minny's Bar & Grill",
   "cat": "restaurants",
   "type": "Modern Indian restaurant",
@@ -5736,7 +5698,7 @@
   "cat": "restaurants",
   "type": "Indian restaurant",
   "address": "2056 Hillside Ave., North New Hyde Park, NY 11040",
-  "town": "North New Hyde Park",
+  "town": "New Hyde Park",
   "zip": "11040",
   "county": "Nassau",
   "phone": "+15163520009",
@@ -5751,10 +5713,10 @@
    }
   ],
   "full_name": "Nanking",
-  "desc": "An Indian restaurant on Hillside Avenue in North New Hyde Park.",
+  "desc": "An Indian restaurant on Hillside Avenue in New Hyde Park.",
   "auto": true,
   "cuisine": "Indian",
-  "slug": "nanking-north-new-hyde-park"
+  "slug": "nanking-new-hyde-park"
  },
  {
   "name": "Art Of Spices Indian Restaurant in Patchogue",
@@ -6079,31 +6041,6 @@
   "auto": true,
   "cuisine": "Pakistani",
   "slug": "kababjees-selden"
- },
- {
-  "name": "Taj Crown of India",
-  "cat": "restaurants",
-  "type": "Indian restaurant",
-  "address": "10 Woods Corner Rd, Setauket- East Setauket, NY 11733",
-  "town": "Setauket- East Setauket",
-  "zip": "11733",
-  "county": "Suffolk",
-  "phone": "+16318252345",
-  "website": "https://www.tajcrownofindia.com/",
-  "temp_closed": true,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Taj+Crown+of+India/data=!4m7!3m6!1s0x89e83f2e3f1c5b6b:0xd7f310d37918c8bc!8m2!3d40.9266816!4d-73.1183153!16s%2Fg%2F11t4_kdr56!19sChIJa1scPy4_6IkRvMgYedMQ89c?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Taj Crown of India",
-  "desc": "An Indian restaurant on Woods Corner Road in Setauket- East Setauket.",
-  "auto": true,
-  "cuisine": "Indian",
-  "slug": "taj-crown-of-india-setauket-east-setauket"
  },
  {
   "name": "Saaz Indian Cuisine",
@@ -7550,6 +7487,30 @@
   "slug": "baps-shri-swaminarayan-mandir-long-island-melville"
  },
  {
+  "name": "Jain Temple of NY Corporation",
+  "cat": "temples",
+  "type": "Jain temple",
+  "address": "271-09 80th Ave, Hillside Manor, NY 11040",
+  "town": "New Hyde Park",
+  "zip": "11040",
+  "county": "Nassau",
+  "phone": "+17184700000",
+  "website": "http://www.jaintempleny.org/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Jain+Temple+of+NY+Corporation/data=!4m7!3m6!1s0x89c2627d8131ccc3:0x357d390fd1ed4c02!8m2!3d40.7472123!4d-73.7011239!16s%2Fg%2F1tdfjm00!19sChIJw8wxgX1iwokRAkzt0Q85fTU?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Jain Temple of NY Corporation",
+  "desc": "A Jain temple in New Hyde Park. Check the temple's own site for darshan hours and festival programs.",
+  "auto": true,
+  "slug": "jain-temple-of-ny-corporation-new-hyde-park"
+ },
+ {
   "name": "Shree Swaminarayan Hindu Temple ISSO",
   "cat": "temples",
   "type": "Hindu temple",
@@ -7651,7 +7612,7 @@
   "slug": "sai-mandir-plainview"
  },
  {
-  "name": "SAI MANDIR USA NORI Foundation",
+  "name": "Sai Mandir USA (NORI Foundation)",
   "cat": "temples",
   "type": "Hindu temple",
   "address": "115 Southern Pkwy, Plainview, NY 11803",
@@ -7673,35 +7634,6 @@
   "desc": "A Hindu temple on Southern Parkway in Plainview. Check the temple's own site for darshan hours and festival programs.",
   "auto": true,
   "slug": "sai-mandir-usa-nori-foundation-plainview"
- },
- {
-  "name": "Haram Travel",
-  "cat": "travel",
-  "type": "Travel agency",
-  "address": "15 N Waldinger St, Valley Stream, NY 11580",
-  "town": "Valley Stream",
-  "zip": "11580",
-  "county": "Nassau",
-  "phone": "+15167087871",
-  "website": "https://haram-travel.ueniweb.com/?utm_campaign=gmb",
-  "temp_closed": true,
-  "located_in": "",
-  "sources": [
-   {
-    "url": "https://www.google.com/maps/place/Haram+Travel/data=!4m7!3m6!1s0x89c26588bbbe1521:0xd7a657b2d2b27c63!8m2!3d40.6690417!4d-73.7119265!16s%2Fg%2F11h9kzlpzg!19sChIJIRW-u4hlwokRY3yy0rJXptc?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
-    "kind": "Google Maps listing",
-    "checked": "2026-11-01"
-   },
-   {
-    "url": "https://haram-travel.ueniweb.com/?utm_campaign=gmb",
-    "kind": "own website",
-    "checked": "2026-11-01"
-   }
-  ],
-  "full_name": "Haram Travel",
-  "desc": "A travel agency on North Waldinger Street in Valley Stream.",
-  "auto": true,
-  "slug": "haram-travel-valley-stream"
  },
  {
   "name": "Dix Hills Nikah, Wedding & Event Center",
@@ -7813,6 +7745,30 @@
   "desc": "A banquet hall on Northern Boulevard in Great Neck. Ask about South Asian wedding packages and outside catering when you call.",
   "auto": true,
   "slug": "leonard-s-great-neck"
+ },
+ {
+  "name": "Pearl Banquet",
+  "cat": "venues",
+  "type": "Wedding venue",
+  "address": "276 W Old Country Rd, Hicksville, NY 11801",
+  "town": "Hicksville",
+  "zip": "11801",
+  "county": "Nassau",
+  "phone": "+15167303434",
+  "website": "http://www.pearlny.com/",
+  "temp_closed": false,
+  "located_in": "",
+  "sources": [
+   {
+    "url": "https://www.google.com/maps/place/Pearl+Banquet/data=!4m7!3m6!1s0x89c28153684e120b:0xdc2976fb07390702!8m2!3d40.7610422!4d-73.5315627!16s%2Fg%2F11rk4nfg3c!19sChIJCxJOaFOBwokRAgc5B_t2Kdw?authuser=0&hl=en&g_ep=EgoyMDI2MTAyOC4wIJJjKgBIAVAD&rclk=1",
+    "kind": "Google Maps listing",
+    "checked": "2026-11-01"
+   }
+  ],
+  "full_name": "Pearl Banquet",
+  "desc": "A wedding venue on West Old Country Road in Hicksville. Ask about South Asian wedding packages and outside catering when you call.",
+  "auto": true,
+  "slug": "pearl-banquet-hicksville"
  },
  {
   "name": "Tikka / De Saffron Banquet Hall",

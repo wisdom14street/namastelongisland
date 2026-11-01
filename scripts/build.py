@@ -188,7 +188,7 @@ ev_html = ''.join(event_card(e) for e in ev[:4])
 home_body = f'''<section class="hero"><div class="wrap">
 <p class="kicker">Hicksville · New Hyde Park · Jericho · Melville · and all of Long Island</p>
 <h1>Your guide to South Asian life on Long Island</h1>
-<p class="lede">Weddings, festivals, food, worship and the neighbors who make it all happen. Free to use, free to be listed, and checked by a real person.</p>
+<p class="lede">Weddings, festivals, food, worship and the neighbors who make it all happen. Free to use, free to be listed, and every listing checked against a public source.</p>
 <form class="hsearch" action="/directory/" method="get" role="search"><label class="sr" for="hq">Search the directory</label><input id="hq" name="q" type="search" placeholder="Try dosa, mithai, lehenga, gurdwara..."><button class="btn" type="submit">Search</button></form>
 <div class="btns"><a class="btn alt" href="/directory/">Browse the directory</a><a class="btn alt" href="/get-listed/">Get listed free</a></div>
 </div></section>
@@ -208,7 +208,7 @@ home_body = f'''<section class="hero"><div class="wrap">
 <p class="small">Source: U.S. Census Bureau, American Community Survey 2020–2024 5-year estimates, via <a href="https://censusreporter.org" rel="noopener">censusreporter.org</a>.</p></section>
 {news_box('home')}'''
 pages['/'] = ('Namaste Long Island: South Asian weddings, festivals, food and events on Long Island',
-              'A community guide to South Asian life on Long Island: wedding vendors, festival guide, events, restaurants, shops, temples and gurdwaras, checked by a real person.', home_body)
+              'A community guide to South Asian life on Long Island: wedding vendors, festival guide, events, restaurants, shops, temples and gurdwaras, each listing checked against a public source.', home_body)
 
 WED = [
     ('venues', 'Venues and banquet halls', 'Halls, hotels and estates that can host a baraat, a 400-seat reception, and a fire-safe havan.'),
@@ -397,7 +397,7 @@ about_body = f'''<section class="phead"><div class="wrap"><p class="kicker">Abou
 <p class="lede">A friendly connector for Long Island's South Asian community: one place to find the vendors, events, food and places of worship that friends usually pass along by WhatsApp.</p></div></section>
 <section class="wrap narrow prose">
 <h2>Who runs it</h2><p>Namaste Long Island is run by {OPERATOR} (also behind Namaste Bookshop in NYC). Our goal is to help local families find what they need and help local businesses and organizations get found.</p>
-<h2>How we check things</h2><ul><li>We list a business or place only after confirming it with the owner or on its own website or Google Maps listing.</li><li>Events link back to the organizer. We don't copy news stories or other calendars.</li><li>We never post fake reviews or reviews copied from other sites.</li></ul>
+<h2>How we check things</h2><ul><li>We list a business or place only after confirming it on its own website or its public Google Maps listing, or with the owner. Most directory listings started from public Google Maps listings, filtered to Nassau and Suffolk addresses, with permanently closed places left out.</li><li>Directory pages show the date the listings were last checked. Hours change, so call before you go.</li><li>Events link back to the organizer. We don't copy news stories or other calendars.</li><li>We never post fake reviews or reviews copied from other sites.</li></ul>
 <h2>Free listings, and what will be paid</h2><p>Basic listings and event submissions are free. Later we'll offer featured placements and newsletter sponsorships. Anything paid will be clearly labeled as sponsored or featured.</p>
 <h2>Corrections</h2><p>See something wrong? Email <a href="mailto:{EMAIL}">{EMAIL}</a> and we'll fix it.</p></section>'''
 pages['/about/'] = ('About | Namaste Long Island', 'Who runs Namaste Long Island, how listings are verified, and how free and paid placements work.', about_body)
@@ -439,7 +439,7 @@ open(os.path.join(DIST, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding
 bots = ['Googlebot', 'Bingbot', 'OAI-SearchBot', 'ChatGPT-User', 'GPTBot', 'PerplexityBot', 'Google-Extended', 'ClaudeBot']
 open(os.path.join(DIST, 'robots.txt'), 'w').write(''.join(f'User-agent: {b}\nAllow: /\n\n' for b in bots) + f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 open(os.path.join(DIST, 'llms.txt'), 'w').write(f'''# {BRAND}
-> A community guide to South Asian life on Long Island, New York: wedding vendors, events, a festival guide, restaurants, shops, temples, gurdwaras and community groups. Run by {OPERATOR}. Listings are free and verified with the business or on its own website.
+> A community guide to South Asian life on Long Island, New York: wedding vendors, events, a festival guide, restaurants, shops, temples, gurdwaras and community groups. Run by {OPERATOR}. Listings are free, and each one is checked against the business's Google Maps listing or its own website.
 
 ## Pages
 ''' + ''.join(f'- [{v[0].split(" | ")[0]}]({BASE}{p}): {v[1]}\n' for p, v in pages.items()) + f'\nContact: {EMAIL}\n')

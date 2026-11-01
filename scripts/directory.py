@@ -199,3 +199,9 @@ ru_fields = (field('listing', 'Listing name or link', req=True) + field('what', 
 pages['/report-update/'] = ('Report an update | Namaste Long Island', 'Tell us about a change or mistake in a Namaste Long Island listing.',
     f'''<section class="phead"><div class="wrap"><p class="kicker">Report an update</p><h1>Report an update</h1><p class="lede">Moved, closed, new number, or something we got wrong? Tell us and we'll check it.</p></div></section>
 <section class="wrap narrow">{form('report_update', 'Listing update', ru_fields, 'Send update')}<p class="small">Owners: <a href="/claim/">claim your listing</a> to manage it directly.</p></section>''')
+
+# ---- home: browse by category ----
+_home = pages['/']
+_tiles = ''.join(f'<a class="ctile" href="{cat_url(c)}">{icon(c)}<span><b>{E(t)}</b><small>{len(by_cat[c])} listed</small></span></a>' for c, t, *_ in CATS_META if c in by_cat)
+_cat_sec = f'<section class="wrap"><div class="sechead"><h2>Browse {total} listings</h2><a href="/directory/">Search all</a></div><div class="ctiles">{_tiles}</div></section>\n'
+pages['/'] = (_home[0], _home[1], _home[2].replace('<section class="wrap"><h2>Explore</h2>', _cat_sec + '<section class="wrap"><h2>Explore</h2>', 1)) + tuple(_home[3:])
